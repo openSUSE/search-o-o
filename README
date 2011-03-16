@@ -1,0 +1,10 @@
+openSUSE.org Search
+===================
+
+This is the code that runs search.opensuse.org. The primary layout is in
+index.php and the site specific html exists in the *.tmpl.php files.
+
+To build the static html pages run build.sh and rsync the output
+directoy to the search.opensuse.org webroot.
+
+Questions? Brandon Philips <brandon@ifup.org>

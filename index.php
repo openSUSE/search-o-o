@@ -25,15 +25,13 @@ $site = $argv[1]
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   
   <link rel="stylesheet" href="http://static.opensuse.org/themes/bento/css/style.css" type="text/css" media="screen" title="All" charset="utf-8" />
+  <link rel="stylesheet" href="search.css" type="text/css" media="screen" title="All" charset="utf-8" />
   
-  <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/l10n/global-navigation-data-en_US.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/global-navigation.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://static.opensuse.org/themes/bento/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://static.opensuse.org/themes/bento/js/script.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://static.opensuse.org/themes/bento/js/l10n/global-navigation-data-en_US.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://static.opensuse.org/themes/bento/js/global-navigation.js" type="text/javascript" charset="utf-8"></script>
   </script>
-  
-  <!-- wiki javascript -->
-  <script src="js_local/wiki.script.js" type="text/javascript" charset="utf-8"></script>
   
   <link rel="icon" type="image/png" href="http://static.opensuse.org/themes/bento/images/favicon.png" />
   <title>Search - openSUSE.org</title>
@@ -57,12 +55,12 @@ $site = $argv[1]
 
     <div class="column grid_3 alpha">
 
-      <div id="some_other_content" class="box box-shadow alpha clear-both navigation">
+      <div id="search_options" class="box box-shadow alpha clear-both navigation">
           <ul class="navigation">
             <?php
             foreach ($sites as $slug => $name) {
               if ($slug == $site) $name = "<em>$name</em>";
-              echo "<li>Everything</li>";
+              echo "<li><a href=\"$slug.html\">$name</a></li>";
             }
             ?>
           </ul>
@@ -71,7 +69,7 @@ $site = $argv[1]
 
     <div class="box box-shadow grid_13 clearfix">
 
-      <div class="grid_13 alpha omega row_30">
+      <div class="grid_13 alpha omega">
 
 <?php require("$site.tmpl.php") ?>
 
@@ -83,5 +81,20 @@ $site = $argv[1]
 
   </div>
   <!-- End: Main Content Area -->
+
+  <!-- Start: Footer -->
+  <div id="footer" class="container_16">
+    <div id="footer-content" class="grid_16 alpha omega">
+      <p>Want to contribute to search.opensuse.org? Fork it on <a href="http://gitorious.org/search-opensuse-org/search-opensuse-org">gitorious.org</a></p>
+    </div>
+    <div id="footer-legal" class="border-top grid_16">
+      <p>
+        &copy; 2011 Novell, Inc. All rights reserved. Novell is a registered trademark and openSUSE and SUSE are trademarks of Novell, Inc. in the United States and other countries.
+      </p>
+    </div>
+
+  </div>
+  <!-- End: Footer -->
+
 </body>
 </html>
