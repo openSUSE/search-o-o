@@ -7,4 +7,9 @@ index.php and the site specific html exists in the *.tmpl.php files.
 To build the static html pages run build.sh and rsync the output
 directoy to the search.opensuse.org webroot.
 
+Ad Notes
+--------
+If/when openSUSE becomes a registered non-profit we can turn off the ads:
+https://www.google.com/support/customsearch/bin/answer.py?answer=70354&topic=11497
+
 Questions? Brandon Philips <brandon@ifup.org>
