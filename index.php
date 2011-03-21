@@ -25,7 +25,7 @@ $site = $argv[1]
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   
   <link rel="stylesheet" href="http://static.opensuse.org/themes/bento/css/style.css" type="text/css" media="screen" title="All" charset="utf-8" />
-  <link rel="stylesheet" href="search.css" type="text/css" media="screen" title="All" charset="utf-8" />
+  <link rel="stylesheet" href="/search.css" type="text/css" media="screen" title="All" charset="utf-8" />
   
   <script src="http://static.opensuse.org/themes/bento/js/jquery.js" type="text/javascript" charset="utf-8"></script>
   <script src="http://static.opensuse.org/themes/bento/js/script.js" type="text/javascript" charset="utf-8"></script>
@@ -60,7 +60,10 @@ $site = $argv[1]
             <?php
             foreach ($sites as $slug => $name) {
               if ($slug == $site) $name = "<em>$name</em>";
-              echo "<li><a href=\"$slug.html\">$name</a></li>";
+              if ($slug == "index") 
+                echo "<li><a href=\"/\">$name</a></li>";
+              else
+                echo "<li><a href=\"/$slug\">$name</a></li>";
             }
             ?>
           </ul>

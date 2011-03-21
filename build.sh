@@ -2,10 +2,14 @@
 
 OUTDIR="output"
 
-mkdir -p $OUTDIR
-
 php -f index.php | while read site; do
-	php -f index.php $site > $OUTDIR/$site.html
+	dir=$OUTDIR
+	if [ $site != index ]; then
+		dir=$OUTDIR/$site
+	fi
+
+	mkdir -p $dir
+	php -f index.php $site > $dir/index.html
 done
 
 cp search.css output
