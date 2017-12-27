@@ -79,8 +79,10 @@ $site = $argv[1]
 				</nav>
 				</div>
 
-			<div class="container line content aligner">
-				<?php require("$site.tmpl.php") ?>
+			<div class="line content aligner">
+				<div class="container aligner">
+					<?php require("$site.tmpl.php") ?>
+				</div>
 			</div>
 			<div class="line footer">
 				<div id="feedWidget">
