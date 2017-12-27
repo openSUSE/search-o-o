@@ -20,13 +20,14 @@ $site = $argv[1]
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
+		<base href="https://lelcp.github.io/search-o-o/" target="_top">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<link rel="stylesheet" href="/css/search.css" type="text/css" media="screen" title="All" charset="utf-8" />
+		<link rel="stylesheet" href="css/search.css" type="text/css" media="screen" title="All" charset="utf-8" />
 		<link rel="stylesheet" href="https://opensuse-zh.github.io/chameleon/css/app.css" type="text/css" media="screen" title="All" charset="utf-8" />
 		<script src="https://opensuse-zh.github.io/chameleon/js/app.js" type="text/javascript" charset="utf-8"></script>
-		<script src="/js/search_methods.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/search_methods.js" type="text/javascript" charset="utf-8"></script>
 		
-		<link rel="icon" type="image/png" href="/images/favico.png" />
+		<link rel="icon" type="image/png" href="images/favico.png" />
 		<title>openSUSE Search</title>
 		
 	</head>
@@ -66,11 +67,11 @@ $site = $argv[1]
 							 <?php
 					foreach ($sites as $slug => $name) {
 						if ($slug == "index" && $name != "$name") 
-							echo "<li class=\"nav-item\"><a class=\"nav-link\" href=\"/\">$name</a></li>";
+							echo "<li class=\"nav-item\"><a class=\"nav-link\" href=\"\">$name</a></li>";
 						else if ($slug == $site && $name = "$name")
-							echo "<li class=\"nav-item\"><a class=\"nav-link active\" href=\"/$slug\">$name</a></li>";
+							echo "<li class=\"nav-item\"><a class=\"nav-link active\" href=\"$slug\">$name</a></li>";
 						else
-							echo "<li class=\"nav-item\"><a class=\"nav-link\" href=\"/$slug\">$name</a></li>";
+							echo "<li class=\"nav-item\"><a class=\"nav-link\" href=\"$slug\">$name</a></li>";
 					}
 					?>
 						</ul>
@@ -78,12 +79,8 @@ $site = $argv[1]
 				</nav>
 				</div>
 
-			<div class="line content">
-				<div class="container">
-					<div class="smallbox aligner">
-						<?php require("$site.tmpl.php") ?>
-					</div>
-				</div>
+			<div class="container line content aligner">
+				<?php require("$site.tmpl.php") ?>
 			</div>
 			<div class="line footer">
 				<div id="feedWidget">
@@ -97,12 +94,12 @@ $site = $argv[1]
 							<div class="col-12 col-md-4">
 								<h6>Sponsors</h6>
 								<ul class="list-unstyled">
-									<li><a href="https://en.opensuse.org/Sponsors"><img src="../images/SUSE_Logo.svg" class="sponsor-logo-small mr-3">
-									<img src="../images/AMD_Logo.svg" class="sponsor-logo-small mr-3">
-									<img src="../images/Heinlein_Logo.png" class="sponsor-logo-small mr-3">
-									<img src="../images/CoreBackbone_Logo.png" class="sponsor-logo-small mr-3">
-									<img src="../images/B1Systems_Logo.jpg" class="sponsor-logo-small mr-3">
-									<img src="../images/APM_Logo.png" class="sponsor-logo-small mr-3"></a></li>
+									<li><a href="https://en.opensuse.org/Sponsors"><img src="images/SUSE_Logo.svg" class="sponsor-logo-small mr-3">
+									<img src="images/AMD_Logo.svg" class="sponsor-logo-small mr-3">
+									<img src="images/Heinlein_Logo.png" class="sponsor-logo-small mr-3">
+									<img src="images/CoreBackbone_Logo.png" class="sponsor-logo-small mr-3">
+									<img src="images/B1Systems_Logo.jpg" class="sponsor-logo-small mr-3">
+									<img src="images/APM_Logo.png" class="sponsor-logo-small mr-3"></a></li>
 									
 								</ul>
 								
