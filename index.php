@@ -91,26 +91,27 @@ $site = $argv[1]
 				<footer id="darker" class="global-footer">
 					<div  class="container">
 						<div class="row">
-							<div class="col-12 col-md-4">
+							<div class="col-12 col-md-4 text-md-left text-center">
 								<h6 lang="en">Sponsors</h6>
 								<ul class="list-unstyled">
 									<li><a href="https://en.opensuse.org/Sponsors"><img src="images/SUSE_Logo.svg" class="sponsor-logo-small mr-3">
 									<img src="images/AMD_Logo.svg" class="sponsor-logo-small mr-3">
-									<img src="images/Heinlein_Logo.png" class="sponsor-logo-small mr-3">
+									<img src="images/B1Systems_Logo.jpg" class="sponsor-logo-small mr-3"></li>
+									<li><img src="images/Heinlein_Logo.png" class="sponsor-logo-small mr-3">
 									<img src="images/CoreBackbone_Logo.png" class="sponsor-logo-small mr-3">
-									<img src="images/B1Systems_Logo.jpg" class="sponsor-logo-small mr-3">
+									
 									<img src="images/APM_Logo.png" class="sponsor-logo-small mr-3"></a></li>
 									
 								</ul>
 								
 							</div>
 							<div class="col-12 col-md-4 text-center">
-								<h6 onclick="myFunction()">&copy; 2011&ndash;2017</h6>
+								<h6>&copy; 2011&ndash;2017</h6>
 								<ul class="list-unstyled">
 									<li><p lang="en">openSUSE contributors</p></li>
 								</ul>
 							</div>
-							<div class="col-12 col-md-4 text-right">
+							<div class="col-12 col-md-4 text-md-right text-center">
 								<h6 lang="en">Change language</h6>
 									<select class="btn btn-secondary btn-sm" id="lang-select" onchange="window.lang.change(this.value);">
 										<option href="#" value="ar">اللغة العربية</option>
@@ -161,8 +162,8 @@ $site = $argv[1]
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
-			<div class="modal-body">
-				<select id="sel" class="form-control mr-2" onchange="saveSearch(this.value);">
+			<div class="modal-body input-group input-group-lg">
+				<select id="sel" class="form-control py-0" onchange="saveSearch(this.value);">
 					<option value="https://www.qwant.com/">Qwant</option>
 					<option value="https://google.com/search">Google</option>
 					<option value="https://duckduckgo.com/">DuckDuckGo</option>
@@ -175,8 +176,8 @@ $site = $argv[1]
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLabel" lang="en">Select the theme</h5>
 			</div>
-			<div class="modal-body">
-				<select id="theme" class="form-control mr-2" onchange="saveTheme(this.value);">
+			<div class="modal-body input-group input-group-lg">
+				<select id="theme" class="form-control py-0" onchange="saveTheme(this.value);">
 					<option value="light">Light</option>
 					<option value="dark">Dark</option>
 				</select>

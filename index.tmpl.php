@@ -8,5 +8,3 @@
 		<span class="hidden-xs-down" lang="en">Search</span>
 	</button>
 </form>
-
-
