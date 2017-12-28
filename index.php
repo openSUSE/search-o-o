@@ -79,16 +79,18 @@ $site = $argv[1]
 					</div>
 				</nav>
 				</div>
-
 			<div class="line content aligner">
 				<div class="container aligner">
 					<?php require("$site.tmpl.php") ?>
 				</div>
+				
 			</div>
 			<div class="line footer">
-				<div id="feedWidget">
-					<div id="tabContent">
-					<p>...</p>
+				<div class="alert alert-info container" role="alert">
+					<div id="feedWidget">
+						<div id="tabContent">
+							<p>...</p>
+						</div>
 					</div>
 				</div>
 				<footer class="global-footer">
