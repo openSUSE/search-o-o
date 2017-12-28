@@ -2,7 +2,7 @@
 
 Originally project from 2011, revived now with modern look and feel
 
-![Screenshot](/screenshot/screenshot.png)
+![Screenshot](/screenshot/Main.png)
 Updated version of search.openSUSE.org federated search engine.
 
 ## Improved:
@@ -13,9 +13,17 @@ Updated version of search.openSUSE.org federated search engine.
  * Removed previous links to patented packages.
  * Added current sponsors instead of relying on Google Ads 🤔
  * Added newest headline from news.openSUSE.org
+ * Support for translations
+ * Dark theme support
  
 ## TODO:
 
- * Support for translations
- * Dark theme support
  * Cleanup
+ * Removal of YQL in favour of better solution
+
+![Languages](/screenshot/Languages.png)
+Support for translation
+![Dark](/screenshot/Dark.png)
+Support of custom themes
+![Options](/screenshot/Options.png)
+Easy to use options to customize your experience
