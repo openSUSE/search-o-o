@@ -20,7 +20,7 @@ $site = $argv[1]
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
-		<base href="https://lelcp.github.io/search-o-o/" target="_top">
+		<base href="" target="_top">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<link rel="stylesheet" href="css/search.css" type="text/css" media="screen" title="All" charset="utf-8" />
 		<link rel="stylesheet" href="https://opensuse-zh.github.io/chameleon/css/app.css" type="text/css" media="screen" title="All" charset="utf-8" />
@@ -96,11 +96,11 @@ $site = $argv[1]
 								<ul class="list-unstyled">
 									<li><a href="https://en.opensuse.org/Sponsors"><img src="images/SUSE_Logo.svg" class="sponsor-logo-small mr-3">
 									<img src="images/AMD_Logo.svg" class="sponsor-logo-small mr-3">
-									<img src="images/B1Systems_Logo.jpg" class="sponsor-logo-small mr-3"></li>
-									<li><img src="images/Heinlein_Logo.png" class="sponsor-logo-small mr-3">
-									<img src="images/CoreBackbone_Logo.png" class="sponsor-logo-small mr-3">
+									<img src="images/B1Systems_Logo.svg" class="sponsor-logo-small mr-3"></li>
+									<li><img src="images/Heinlein_Logo.svg" class="sponsor-logo-small mr-3">
+									<img src="images/CoreBackbone_Logo.svg" class="sponsor-logo-small mr-3">
 									
-									<img src="images/APM_Logo.png" class="sponsor-logo-small mr-3"></a></li>
+									<img src="images/APM_Logo.svg" class="sponsor-logo-small mr-3"></a></li>
 									
 								</ul>
 								
