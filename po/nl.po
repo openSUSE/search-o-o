@@ -1,0 +1,114 @@
+# Freek de Kruijf <freek@opensuse.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-28 02:53+0100\n"
+"PO-Revision-Date: 2015-11-04 09:38+0100\n"
+"Last-Translator: Freek de Kruijf <freek@opensuse.org>\n"
+"Language-Team: Dutch <opensuse-nl@opensuse.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, fuzzy
+msgid "openSUSE Search"
+msgstr "openSUSE zoeken"
+
+msgid "Download"
+msgstr ""
+
+#, fuzzy
+msgid "Software"
+msgstr "Haal software op"
+
+msgid "Guides"
+msgstr ""
+
+msgid "Wiki"
+msgstr "Wiki"
+
+msgid "Forums"
+msgstr "Forums"
+
+msgid "Internet"
+msgstr ""
+
+msgid "Lists"
+msgstr ""
+
+msgid "Packages"
+msgstr ""
+
+#, fuzzy
+msgid "Search the web"
+msgstr "Zoeken met Google"
+
+msgid "Search"
+msgstr ""
+
+msgid "Change search provider"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Sponsors"
+msgstr ""
+
+msgid "openSUSE contributors"
+msgstr ""
+
+msgid "Search openSUSE wiki"
+msgstr ""
+
+msgid "Search Mailing Lists"
+msgstr ""
+
+msgid "Search for package"
+msgstr ""
+
+msgid "Search openSUSE forums"
+msgstr ""
+
+msgid "Change language"
+msgstr "Taal wijzigen"
+
+msgid "https://forums.opensuse.org/"
+msgstr ""
+
+msgid "https://en.opensuse.org/"
+msgstr ""
+
+#~ msgid "Build Service"
+#~ msgstr "Build-service"
+
+#~ msgid "What are you searching for?"
+#~ msgstr "Waar zoekt u naar?"
+
+#~ msgid "Powered by"
+#~ msgstr "Van kracht voorzien door"
+
+#~ msgid "Social Network"
+#~ msgstr "Sociaal netwerk"
+
+#~ msgid "News"
+#~ msgstr "Nieuws"
+
+#~ msgid "Shop"
+#~ msgstr "Winkel"
+
+#~ msgid "Blogs"
+#~ msgstr "Blogs"
+
+#~ msgid "Press"
+#~ msgstr "Pers"
+
+#~ msgid "Loading Page"
+#~ msgstr "Pagina wordt geladen"

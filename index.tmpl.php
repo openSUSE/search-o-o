@@ -2,10 +2,10 @@
 	<button type="button" class="btn btn-link mr-2" data-toggle="modal" data-target="#search-config-modal">
 		<span class="typcn typcn-lg typcn-spanner-outline"></span>
 	</button>
-	<input class="form-control mr-2" type="text" name="q" placeholder="Search web"/>
+	<input class="form-control mr-2" type="text" name="q" lang="en" placeholder="Search the web"/>
 	<button class="btn btn-primary mr-2" type="submit">
 		<span class="typcn typcn-lg typcn-zoom-outline"></span>
-		<span class="hidden-xs-down">Search</span>
+		<span class="hidden-xs-down" lang="en">Search</span>
 	</button>
 </form>
 
@@ -14,7 +14,7 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Change search provider</h5>
+				<h5 class="modal-title" id="exampleModalLabel" lang="en">Change search provider</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -30,8 +30,8 @@
 				</select>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-				<button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+				<button type="button" class="btn btn-secondary" lang="en" data-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-primary" lang="en" data-dismiss="modal">Save</button>
 			</div>
 		</div>
 	</div>

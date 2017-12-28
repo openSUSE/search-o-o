@@ -1,0 +1,10 @@
+{
+  "name": "opensuse-search-page",
+  "pages": [
+    "output/index.html",
+    "output/wiki/index.html",
+    "output/lists/index.html",
+    "output/forums/index.html",
+    "output/packages/index.html"
+  ]
+}

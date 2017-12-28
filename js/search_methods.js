@@ -5,10 +5,7 @@ var tabs = {
 		"function"	: rss
 	}
 }
-$(document).ready(function(){
-	$('#feedWidget').show();
-	showTab('openSUSE News');
-});
+
 
 function showTab(key)
 {
@@ -111,3 +108,80 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+//*****************init i18n
+
+var lang = new Lang('en');
+//languages setup - please list here all new language packs
+window.lang.dynamic('ar', 'js/langpack/ar.json');
+window.lang.dynamic('ast', 'js/langpack/ast.json');
+window.lang.dynamic('bg', 'js/langpack/bg.json');
+window.lang.dynamic('ca', 'js/langpack/ca.json');
+window.lang.dynamic('cs', 'js/langpack/cs.json');
+window.lang.dynamic('da', 'js/langpack/da.json');
+window.lang.dynamic('de', 'js/langpack/de.json');
+window.lang.dynamic('el', 'js/langpack/el.json');
+window.lang.dynamic('es', 'js/langpack/es.json');
+window.lang.dynamic('fa', 'js/langpack/fa.json');
+window.lang.dynamic('fr', 'js/langpack/fr.json');
+window.lang.dynamic('gl', 'js/langpack/gl.json');
+window.lang.dynamic('id', 'js/langpack/id.json');
+window.lang.dynamic('it', 'js/langpack/it.json');
+window.lang.dynamic('ja', 'js/langpack/ja.json');
+window.lang.dynamic('ko', 'js/langpack/ko.json');
+window.lang.dynamic('lt', 'js/langpack/lt.json');
+window.lang.dynamic('nl', 'js/langpack/nl.json');
+window.lang.dynamic('nn', 'js/langpack/nn.json');
+window.lang.dynamic('pl', 'js/langpack/pl.json');
+window.lang.dynamic('pt', 'js/langpack/pt.json');
+window.lang.dynamic('pt_BR', 'js/langpack/pt_BR.json');
+window.lang.dynamic('ru', 'js/langpack/ru.json');
+window.lang.dynamic('sk', 'js/langpack/sk.json');
+window.lang.dynamic('sv', 'js/langpack/sv.json');
+window.lang.dynamic('uk', 'js/langpack/uk.json');
+window.lang.dynamic('zh_CN', 'js/langpack/zh_CN.json');
+window.lang.dynamic('zh_TW', 'js/langpack/zh_TW.json');
+
+//change language on click
+$(document).on("change", "lang-select", function() {
+  var languageSelected = $(this).data('value');
+  var languageString = $(this).html();
+  $("body").fadeOut(300, function() {
+    window.lang.change(languageSelected);
+  });
+
+  return false;
+})
+$(document).ready(function(){
+	$('#feedWidget').show();
+	showTab('openSUSE News');
+	var languageCode;
+  var selectedLanguageName;
+
+  if (cookieLanguage === undefined) {
+    try {
+      // try to use navigator.language
+      languageCode = navigator.language.replace("-","_");
+      window.lang.change(languageCode);
+    }
+    catch(err) {
+      // navigator.language is not available
+      if (navigator.language.length > 2) {
+        try {
+          // try with a more general string (for example, if navigator.language is "es-ES" then "es" is tried)
+          languageCode = navigator.language.substring(0,2);
+          window.lang.change(languageCode);
+        }
+        catch(err) {
+          languageCode = "en";
+        }
+      }
+      else {
+        languageCode = "en";
+      }
+    }
+  }
+  else {
+    languageCode = cookieLanguage;
+  }
+  document.getElementById('lang-select').value = languageCode;
+});

@@ -1,0 +1,114 @@
+# Karl Ove Hufthammer <karl@huftis.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-28 02:53+0100\n"
+"PO-Revision-Date: 2015-11-16 20:17+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: NorwegianNynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, fuzzy
+msgid "openSUSE Search"
+msgstr "openSUSE-søk"
+
+msgid "Download"
+msgstr ""
+
+#, fuzzy
+msgid "Software"
+msgstr "Last ned"
+
+msgid "Guides"
+msgstr ""
+
+msgid "Wiki"
+msgstr "Wiki"
+
+msgid "Forums"
+msgstr "Forum"
+
+msgid "Internet"
+msgstr ""
+
+msgid "Lists"
+msgstr ""
+
+msgid "Packages"
+msgstr ""
+
+#, fuzzy
+msgid "Search the web"
+msgstr "Søk med Google"
+
+msgid "Search"
+msgstr ""
+
+msgid "Change search provider"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Sponsors"
+msgstr ""
+
+msgid "openSUSE contributors"
+msgstr ""
+
+msgid "Search openSUSE wiki"
+msgstr ""
+
+msgid "Search Mailing Lists"
+msgstr ""
+
+msgid "Search for package"
+msgstr ""
+
+msgid "Search openSUSE forums"
+msgstr ""
+
+msgid "Change language"
+msgstr "Byt språk"
+
+msgid "https://forums.opensuse.org/"
+msgstr ""
+
+msgid "https://en.opensuse.org/"
+msgstr ""
+
+#~ msgid "Build Service"
+#~ msgstr "Byggjeteneste"
+
+#~ msgid "What are you searching for?"
+#~ msgstr "Kva vil du søkja etter?"
+
+#~ msgid "Powered by"
+#~ msgstr "Bygd på"
+
+#~ msgid "Social Network"
+#~ msgstr "Sosiale nettverk"
+
+#~ msgid "News"
+#~ msgstr "Nyheiter"
+
+#~ msgid "Shop"
+#~ msgstr "Butikk"
+
+#~ msgid "Blogs"
+#~ msgstr "Bloggar"
+
+#~ msgid "Press"
+#~ msgstr "Presse"
+
+#~ msgid "Loading Page"
+#~ msgstr "Lastar side"

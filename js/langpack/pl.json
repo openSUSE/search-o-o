@@ -1,0 +1,23 @@
+{
+  "WARNING": "Please see the README.md - this is generated",
+  "token": {
+    "Cancel": "Poniechaj",
+    "Change language": "Zmień język",
+    "Change search provider": "Zmień dostawcę wyszukiwania",
+    "Download": "Pobierz",
+    "Forums": "Fora",
+    "Guides": "Poradniki",
+    "Lists": "Listy",
+    "Packages": "Paczki",
+    "Save": "Zapisz",
+    "Search": "Szukaj",
+    "Search Mailing Lists": "Szukaj na listach mailowych",
+    "Search for package": "Szukaj paczki",
+    "Search openSUSE wiki": "Szukaj na wiki openSUSE",
+    "Search the web": "Szukaj w internecie",
+    "Software": "Oprogramowanie",
+    "Sponsors": "Sponsorzy",
+    "openSUSE Search": "Wyszukiwarka openSUSE",
+    "openSUSE contributors": "Współtwórcy openSUSE"
+  }
+}

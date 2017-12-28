@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+
+msgid "openSUSE Search"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Software"
+msgstr ""
+
+msgid "Guides"
+msgstr ""
+
+msgid "Wiki"
+msgstr ""
+
+msgid "Forums"
+msgstr ""
+
+msgid "Internet"
+msgstr ""
+
+msgid "Lists"
+msgstr ""
+
+msgid "Packages"
+msgstr ""
+
+msgid "Search the web"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Change search provider"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Sponsors"
+msgstr ""
+
+msgid "openSUSE contributors"
+msgstr ""
+
+msgid "Search openSUSE wiki"
+msgstr ""
+
+msgid "Search Mailing Lists"
+msgstr ""
+
+msgid "Search for package"
+msgstr ""
+
+msgid "Search openSUSE forums"
+msgstr ""
+
+msgid "Change language"
+msgstr ""

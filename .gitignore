@@ -1,1 +1,3 @@
 output/*
+po/**.po~
+po/**.mo

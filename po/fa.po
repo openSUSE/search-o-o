@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: opensuse-i 18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-28 02:53+0100\n"
+"PO-Revision-Date: 2016-10-24 07:36+0000\n"
+"Last-Translator: hayyan rostami <hayyan71@yahoo.com>\n"
+"Language-Team: Persian <https://l10n.opensuse.org/projects/searchpage/master/"
+"fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.6\n"
+
+#, fuzzy
+msgid "openSUSE Search"
+msgstr "جستجوی openSUSE"
+
+msgid "Download"
+msgstr ""
+
+#, fuzzy
+msgid "Software"
+msgstr "دریافت نرم افزار"
+
+msgid "Guides"
+msgstr ""
+
+msgid "Wiki"
+msgstr "ویکی"
+
+msgid "Forums"
+msgstr "انجمن ها"
+
+msgid "Internet"
+msgstr ""
+
+msgid "Lists"
+msgstr ""
+
+msgid "Packages"
+msgstr ""
+
+#, fuzzy
+msgid "Search the web"
+msgstr "جستجو توسط گوگل"
+
+msgid "Search"
+msgstr ""
+
+msgid "Change search provider"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Sponsors"
+msgstr ""
+
+msgid "openSUSE contributors"
+msgstr ""
+
+msgid "Search openSUSE wiki"
+msgstr ""
+
+msgid "Search Mailing Lists"
+msgstr ""
+
+msgid "Search for package"
+msgstr ""
+
+msgid "Search openSUSE forums"
+msgstr ""
+
+msgid "Change language"
+msgstr "تغییر زبان"
+
+msgid "https://forums.opensuse.org/"
+msgstr ""
+
+msgid "https://en.opensuse.org/"
+msgstr ""
+
+#~ msgid "Build Service"
+#~ msgstr "سرویس ساخت"
+
+#~ msgid "What are you searching for?"
+#~ msgstr "در جستجوی چه چیز هستید؟"
+
+#~ msgid "Powered by"
+#~ msgstr "قدرت یافته توسط"
+
+#~ msgid "Social Network"
+#~ msgstr "شبکه اجتماعی"
+
+#~ msgid "News"
+#~ msgstr "اخبار"
+
+#~ msgid "Shop"
+#~ msgstr "فروشگاه"
+
+#~ msgid "Blogs"
+#~ msgstr "وبلاگ ها"
+
+#~ msgid "Press"
+#~ msgstr "مطبوعات"
+
+#~ msgid "Loading Page"
+#~ msgstr "در حال بارگزاری صفحه"
