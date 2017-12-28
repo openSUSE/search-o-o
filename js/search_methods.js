@@ -124,14 +124,15 @@ function readCookie(name) {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  var sel = document.getElementById('sel');
   var theme = document.getElementById('theme');
-  var selectedSearch = readCookie('search');
   var selectedTheme = readCookie('theme');
-
-  if (selectedSearch) {
-    sel.value = selectedSearch;
-    changeAction(selectedSearch);
+  if ($('#searchForm').length > 0) {
+	  var sel = document.getElementById('sel');
+	  var selectedSearch = readCookie('search');
+	  if (selectedSearch) {
+	    sel.value = selectedSearch;
+	    changeAction(selectedSearch);
+	  }
   }
   if (selectedTheme) {
     theme.value = selectedTheme;
