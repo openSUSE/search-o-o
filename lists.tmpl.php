@@ -1,5 +1,5 @@
 <form id="lists" method="get" action="http://lists.opensuse.org/cgi-bin/search.cgi" class="input-group input-group-lg" > 
-	<input id="list-query" type="text" name="query" value="" lang="en" placeholder="Search Mailing Lists" class="form-control mr-2"/>
+	<input id="searchbox" type="text" name="query" value="" lang="en" placeholder="Search Mailing Lists" class="form-control mr-2"/>
 		<select id="lists-options" class="btn btn-secondary mr-2 hidden-sm-down" name="list">
 			<option value="all" selected="selected">All</option>
 			<option value="heroes">heroes</option>

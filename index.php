@@ -33,13 +33,13 @@ $site = $argv[1]
 		
 	</head>
 	<body>
-		<div class="box">
+		<div id="dark" class="box">
 			<div class="line header">
 				<nav id="global-navbar" class="navbar navbar-toggleable navbar-inverse bg-inverse">
 					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<a class="navbar-brand" href="#">
+					<a class="navbar-brand" href="https://www.opensuse.org/">
 						<img src="https://www.opensuse.org/build/images/opensuse-logo.png" width="48" height="30" class="d-inline-block align-top" alt="openSUSE Logo">
 					</a>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,7 +62,7 @@ $site = $argv[1]
 						</ul>
 					</div>
 				</nav>
-				<nav class="site-navbar py-3">
+				<nav class="site-navbar py-3" id="darkest">
 					<div class="container align-center">
 						<ul class="nav justify-content-center nav-pills">
 							 <?php
@@ -86,15 +86,17 @@ $site = $argv[1]
 				
 			</div>
 			<div class="line footer">
-				<div class="alert alert-info container" role="alert">
+			
+				<div class="alert alert-info container text-center" role="alert">
 					<div id="feedWidget">
 						<div id="tabContent">
 							<p>...</p>
 						</div>
 					</div>
 				</div>
-				<footer class="global-footer">
-					<div class="container">
+				<footer id="darker" class="global-footer">
+				
+					<div  class="container">
 						<div class="row">
 							<div class="col-12 col-md-4">
 								<h6 lang="en">Sponsors</h6>
@@ -110,14 +112,14 @@ $site = $argv[1]
 								
 							</div>
 							<div class="col-12 col-md-4 text-center">
-								<h6>&copy; 2011&ndash;2017</h6>
+								<h6 onclick="myFunction()">&copy; 2011&ndash;2017</h6>
 								<ul class="list-unstyled">
 									<li><p lang="en">openSUSE contributors</p></li>
 								</ul>
 							</div>
 							<div class="col-12 col-md-4 text-right">
 								<h6 lang="en">Change language</h6>
-									<select class="btn btn-secondary" id="lang-select" onchange="window.lang.change(this.value);">
+									<select class="btn btn-secondary btn-sm" id="lang-select" onchange="window.lang.change(this.value);">
 										<option href="#" value="ar">اللغة العربية</option>
 										<option href="#" value="ast">Asturianu</option>
 										<option href="#" value="bg">български език</option>
@@ -151,9 +153,49 @@ $site = $argv[1]
 							</div>
 						</div>
 						
+					
 					</div>
 				</footer>
 			</div>
 		</div>
+			<!-- Modal -->
+<div class="modal fade" id="search-config-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel" lang="en">Change search provider</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<select id="sel" class="form-control mr-2" onchange="saveSearch(this.value);">
+					<option value="https://www.qwant.com/">Qwant</option>
+					<option value="https://google.com/search">Google</option>
+					<option value="https://duckduckgo.com/">DuckDuckGo</option>
+					<option value="https://bing.com/">Bing</option>
+					<option value="https://yahoo.com/search">Yahoo</option>
+					<option value="https://startpage.com/do/search">Startpage</option>
+				</select>
+				
+			</div>
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel" lang="en">Select the theme</h5>
+			</div>
+			<div class="modal-body">
+				<select id="theme" class="form-control mr-2" onchange="saveTheme(this.value);">
+					<option value="light">Light</option>
+					<option value="dark">Dark</option>
+				</select>
+				
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" lang="en" data-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-primary" lang="en" data-dismiss="modal">Save</button>
+			</div>
+		</div>
+	</div>
+</div>
 	</body>
+
 </html>

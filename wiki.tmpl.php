@@ -1,5 +1,5 @@
 <form id="wiki" method="get" lang="en" action="http://en.opensuse.org/index.php?" class="input-group input-group-lg" >
-    <input id="wiki-q" type="text" name="search" value="" class="form-control mr-2" lang="en" placeholder="Search openSUSE wiki"/>
+    <input id="searchbox" type="text" name="search" value="" class="form-control mr-2" lang="en" placeholder="Search openSUSE wiki"/>
     <input type="hidden" name="fulltext" value="Search" />
     <input type="hidden" name="title" value="Special%3ASearch" />
     <input type="hidden" name="ns0" value="1" />

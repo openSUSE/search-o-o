@@ -64,3 +64,22 @@ display: none;
 .sponsor-logo-small {
 	height: 1rem;
 }
+
+.dark{
+    background-color:#1d1d1d;
+    color:white;
+}
+
+.site-navbar-dark {
+  color: white !important;
+  background: #2d2d2d !important; 
+}
+
+.searchbox-dark {
+  color: white !important;
+  background: #111111 !important; 
+}
+
+.global-footer-dark {
+  color: white !important;
+  background: #2d2d2d !important; }

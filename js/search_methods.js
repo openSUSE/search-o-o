@@ -61,6 +61,22 @@ function formatString(str)
 function changeAction(val){
     document.getElementById('searchForm').setAttribute('action', val);
 }
+
+function changeTheme(val){
+	if (val=="dark") {
+		document.getElementById('dark').setAttribute("class", "box dark");
+		document.getElementById('darker').setAttribute("class", "global-footer global-footer-dark");
+		document.getElementById('darkest').setAttribute("class", "site-navbar site-navbar-dark py-3");
+		document.getElementById('searchbox').setAttribute("class", "form-control searchbox-dark mr-2");
+		}
+	else if (val=="light") {
+		document.getElementById('dark').setAttribute("class", "box");
+		document.getElementById('darker').setAttribute("class", "global-footer");
+		document.getElementById('darkest').setAttribute("class", "site-navbar py-3");
+		document.getElementById('searchbox').setAttribute("class", "form-control mr-2");
+		}
+}
+
 var saveclass = null;
 
 function saveSearch(cookieValue)
@@ -70,6 +86,15 @@ function saveSearch(cookieValue)
     document.body.className = saveclass + ' ' + sel.value;
     changeAction(cookieValue)
     setCookie('search', cookieValue, 365);
+}
+
+function saveTheme(cookieValue)
+{
+    var theme = document.getElementById('theme');
+    saveclass = saveclass ? saveclass : document.body.className;
+    document.body.className = saveclass + ' ' + sel.value;
+    changeTheme(cookieValue)
+    setCookie('theme', cookieValue, 365);
 }
 
 function setCookie(cookieName, cookieValue, nDays) {
@@ -100,11 +125,17 @@ function readCookie(name) {
 
 document.addEventListener('DOMContentLoaded', function() {
   var sel = document.getElementById('sel');
+  var theme = document.getElementById('theme');
   var selectedSearch = readCookie('search');
+  var selectedTheme = readCookie('theme');
 
   if (selectedSearch) {
     sel.value = selectedSearch;
     changeAction(selectedSearch);
+  }
+  if (selectedTheme) {
+    theme.value = selectedTheme;
+    changeTheme(selectedTheme);
   }
 });
 
@@ -185,3 +216,4 @@ $(document).ready(function(){
   }
   document.getElementById('lang-select').value = languageCode;
 });
+
