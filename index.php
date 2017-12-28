@@ -115,7 +115,7 @@ $site = $argv[1]
 							</div>
 							<div class="col-12 col-md-4 text-right">
 								<h6 lang="en">Change language</h6>
-									<select class="btn btn-secondary mr-2" id="lang-select" onchange="window.lang.change(this.value);">
+									<select class="btn btn-secondary" id="lang-select" onchange="window.lang.change(this.value);">
 										<option href="#" value="ar">اللغة العربية</option>
 										<option href="#" value="ast">Asturianu</option>
 										<option href="#" value="bg">български език</option>
