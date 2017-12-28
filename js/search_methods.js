@@ -59,7 +59,9 @@ function formatString(str)
 /* Modified version of https://stackoverflow.com/a/10957943*/
 
 function changeAction(val){
+  if ($('#searchForm').length > 0) {
     document.getElementById('searchForm').setAttribute('action', val);
+  }
 }
 
 function changeTheme(val){
