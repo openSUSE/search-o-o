@@ -26,6 +26,7 @@ $site = $argv[1]
 		<link rel="stylesheet" href="https://opensuse-zh.github.io/chameleon/css/app.css" type="text/css" media="screen" title="All" charset="utf-8" />
 		<script src="https://opensuse-zh.github.io/chameleon/js/app.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery-lang.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.rss.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/search_methods.js" type="text/javascript" charset="utf-8"></script>
 		
 		<link rel="icon" type="image/png" href="images/favico.png" />
@@ -86,16 +87,8 @@ $site = $argv[1]
 				
 			</div>
 			<div class="line footer">
-			
-				<div class="alert alert-info container text-center" role="alert">
-					<div id="feedWidget">
-						<div id="tabContent">
-							<p>...</p>
-						</div>
-					</div>
-				</div>
+				<div id="rss-feeds"></div>
 				<footer id="darker" class="global-footer">
-				
 					<div  class="container">
 						<div class="row">
 							<div class="col-12 col-md-4">

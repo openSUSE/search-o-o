@@ -1,61 +1,3 @@
-/* Modified version of https://tutorialzine.com/2010/02/feed-widget-jquery-css-yql*/
-var tabs = {
-	"openSUSE News" : {
-		"feed"		: "https://news.opensuse.org/feed/",
-		"function"	: rss
-	}
-}
-
-
-function showTab(key)
-{
-	var obj = tabs[key];
-	if(!obj) return false;
-	var stage = $('#tabContent');
-	/* Forming the query: */
-	var query = "select * from feed where url='"+obj.feed+"' LIMIT 2";
-	/* Forming the URL to YQL: */
-	var url = "https://query.yahooapis.com/v1/public/yql?q="+encodeURIComponent(query)+"&format=json&callback=?";
-
-	$.getJSON(url,function(data){
-
-		stage.empty();
-
-		/* item exists in RSS and entry in ATOM feeds: */
-
-		$.each(data.query.results.item || data.query.results.entry,function(){
-			try{
-				/* Trying to call the user provided function, "this" the rest of the feed data: */
-				stage.append(obj['function'](this));
-		}
-			catch(e){
-				/* Notifying users if there are any problems with their handler functions: */
-				var f_name =obj['function'].toString().match(/function\s+(\w+)\(/i);
-				if(f_name) f_name = f_name[1];
-				stage.append('<div>There is a problem with your '+f_name+ ' function</div>');
-				return false;
-			}
-		})
-	});
-}
-function rss(item)
-{
-	return $('<div>').html(
-		' <a href="'+(item.origLink || item.link[0].href || item.link)+'" target="_blank">'+
-		formatString(item.title.content || item.title)+
-		'</a>'
-	);
-}
-
-function formatString(str)
-{
-	str = str.replace(/<[^>]+>/ig,'');
-	str=' '+str;
-	str = str.replace(/((ftp|https?):\/\/([-\w\.]+)+(:\d+)?(\/([\w/_\.]*(\?\S+)?)?)?)/gm,'<a href="$1" target="_blank">$1</a>');
-	return str;
-}
-
-
 /* Modified version of https://stackoverflow.com/a/10957943*/
 
 function changeAction(val){
@@ -186,8 +128,6 @@ $(document).on("change", "lang-select", function() {
   return false;
 })
 $(document).ready(function(){
-	$('#feedWidget').show();
-	showTab('openSUSE News');
 	var languageCode;
   var selectedLanguageName;
 
@@ -219,4 +159,14 @@ $(document).ready(function(){
   }
   document.getElementById('lang-select').value = languageCode;
 });
-
+jQuery(function($) {
+$("#rss-feeds").rss(
+  "http://news.opensuse.org/feed",
+  {
+    limit: 1,
+    ssl: true,
+    layoutTemplate: "<div class=\"alert alert-info container text-center\" role=\"alert\">{entries}</div>",
+    entryTemplate: '<a href="{url}">{title}</a>'
+  },
+)
+});
