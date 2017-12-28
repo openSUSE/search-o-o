@@ -1,36 +1,36 @@
-# Andriy Bandura <andriykopanytsia@gmail.com>, 2015.
+# Zlatko Zlatinov <zzlatinov@gmail.com>, 2016.
+# Borislav Mitev <morbid_viper@tkzs.org>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-28 02:53+0100\n"
-"PO-Revision-Date: 2015-11-05 08:15+0200\n"
-"Last-Translator: Andriy Bandura <andriykopanytsia@gmail.com>\n"
-"Language-Team: Ukrainian <www-uk-translations@gnu.org>\n"
-"Language: uk\n"
+"PO-Revision-Date: 2016-02-26 17:11+0200\n"
+"Last-Translator: Borislav Mitev <morbid_viper@tkzs.org>\n"
+"Language-Team: Bulgarian <opensuse-translation@opensuse.org>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
 
 #, fuzzy
 msgid "openSUSE Search"
-msgstr "Пошук openSUSE"
+msgstr "Търсене openSUSE"
 
 msgid "Download"
 msgstr ""
 
 #, fuzzy
 msgid "Software"
-msgstr "Звантажити"
+msgstr "Вземане на софтуер"
 
 msgid "Guides"
 msgstr ""
 
 msgid "Wiki"
-msgstr "Вікі"
+msgstr "Wiki"
 
 msgid "Forums"
 msgstr "Форуми"
@@ -46,7 +46,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Search the web"
-msgstr "Пошук через Google"
+msgstr "Търсене в Google"
 
 msgid "Search"
 msgstr ""
@@ -79,31 +79,37 @@ msgid "Search openSUSE forums"
 msgstr ""
 
 msgid "Change language"
-msgstr "Змінити мову"
+msgstr "Смяна на език"
+
+msgid "https://forums.opensuse.org/"
+msgstr ""
+
+msgid "https://en.opensuse.org/"
+msgstr ""
 
 #~ msgid "Build Service"
-#~ msgstr "Служба складання"
+#~ msgstr "Услуга за изграждане"
 
 #~ msgid "What are you searching for?"
-#~ msgstr "Що ви шукаєте?"
+#~ msgstr "Какво търсите?"
 
 #~ msgid "Powered by"
-#~ msgstr "За підтримки"
+#~ msgstr "Задвижвано от"
 
 #~ msgid "Social Network"
-#~ msgstr "Соціальна мережа"
+#~ msgstr "Социална мрежа"
 
 #~ msgid "News"
 #~ msgstr "Новини"
 
 #~ msgid "Shop"
-#~ msgstr "Крамниця"
+#~ msgstr "Магазин"
 
 #~ msgid "Blogs"
-#~ msgstr "Блоґи"
+#~ msgstr "Блогове"
 
 #~ msgid "Press"
 #~ msgstr "Преса"
 
 #~ msgid "Loading Page"
-#~ msgstr "Завантаження сторінки"
+#~ msgstr "Зареждане на страница"

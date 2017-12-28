@@ -80,12 +80,6 @@ msgstr ""
 msgid "Change language"
 msgstr "Canvieu la llengua"
 
-msgid "https://forums.opensuse.org/"
-msgstr ""
-
-msgid "https://en.opensuse.org/"
-msgstr ""
-
 #~ msgid "Build Service"
 #~ msgstr "Servei de construcció"
 

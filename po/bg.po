@@ -81,12 +81,6 @@ msgstr ""
 msgid "Change language"
 msgstr "Смяна на език"
 
-msgid "https://forums.opensuse.org/"
-msgstr ""
-
-msgid "https://en.opensuse.org/"
-msgstr ""
-
 #~ msgid "Build Service"
 #~ msgstr "Услуга за изграждане"
 
