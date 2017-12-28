@@ -116,33 +116,33 @@ $site = $argv[1]
 							<div class="col-12 col-md-4 text-right">
 								<h6 lang="en">Change language</h6>
 									<select class="btn btn-secondary mr-2" id="lang-select" onchange="window.lang.change(this.value);">
-										<option href="#" value="ar">Arabic</option>
-										<option href="#" value="ast">Asturian</option>
-										<option href="#" value="bg">Bulgarian</option>
-										<option href="#" value="ca">Catalan</option>
-										<option href="#" value="cs">Czech</option>
-										<option href="#" value="da">Danish</option>
-										<option href="#" value="de">German</option>
-										<option href="#" value="el">Greek</option>
+										<option href="#" value="ar">اللغة العربية</option>
+										<option href="#" value="ast">Asturianu</option>
+										<option href="#" value="bg">български език</option>
+										<option href="#" value="ca">Català</option>
+										<option href="#" value="cs">Čeština</option>
+										<option href="#" value="da">Dansk</option>
+										<option href="#" value="de">Deutsch</option>
+										<option href="#" value="el">Ελληνικά</option>
 										<option href="#" value="en">English</option>
 										<option href="#" value="es">Español</option>
-										<option href="#" value="fa">Persian</option>
-										<option href="#" value="fr">French</option>
-										<option href="#" value="gl">Galician</option>
-										<option href="#" value="id">Indonesian</option>
-										<option href="#" value="it">Italian</option>
-										<option href="#" value="ja">Japanese</option>
-										<option href="#" value="ko">Korean</option>
-										<option href="#" value="lt">Lithuanian</option>
-										<option href="#" value="nl">Dutch</option>
-										<option href="#" value="nn">Norwegian Nynorsk</option>
+										<option href="#" value="fa">فارسی</option>
+										<option href="#" value="fr">Français</option>
+										<option href="#" value="gl">Galego</option>
+										<option href="#" value="id">Bahasa Indonesia</option>
+										<option href="#" value="it">Italiano</option>
+										<option href="#" value="ja">日本語</option>
+										<option href="#" value="ko">조선말</option>
+										<option href="#" value="lt">Lietuvių</option>
+										<option href="#" value="nl">Nederlands</option>
+										<option href="#" value="nn">Nynorsk</option>
 										<option href="#" value="pl">Polski</option>
-										<option href="#" value="pt_BR">Portuguese (Brazil)</option>
-										<option href="#" value="pt">Portuguese</option>
+										<option href="#" value="pt_BR">Português (Brasil)</option>
+										<option href="#" value="pt">Português</option>
 										<option href="#" value="ru">Русский</option>
-										<option href="#" value="sk">Slovak</option>
-										<option href="#" value="sv">Swedish</option>
-										<option href="#" value="uk">Ukrainian</option>
+										<option href="#" value="sk">Slovenčina</option>
+										<option href="#" value="sv">Svenska</option>
+										<option href="#" value="uk">Українська</option>
 										<option href="#" value="zh_CN">中文（简体）</option>
 										<option href="#" value="zh_TW">中文（繁體）</option>
 									</select>

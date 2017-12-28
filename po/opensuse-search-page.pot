@@ -58,7 +58,7 @@ msgstr ""
 msgid "Search for package"
 msgstr ""
 
-msgid "Search openSUSE forums"
+msgid "Search openSUSE Forums"
 msgstr ""
 
 msgid "Change language"

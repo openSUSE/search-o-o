@@ -69,7 +69,7 @@ msgstr "Sök mailinglistor"
 msgid "Search for package"
 msgstr "Sök paket"
 
-msgid "Search openSUSE forums"
+msgid "Search openSUSE Forums"
 msgstr "Sök openSUSE-forum"
 
 msgid "Change language"
