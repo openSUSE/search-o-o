@@ -76,6 +76,11 @@ $site = $argv[1]
 							echo "<li class=\"nav-item\"><a class=\"nav-link\" href=\"$slug\"><h lang=\"en\">$name</h></a></li>";
 					}
 					?>
+							<li class="nav-item">
+								<a type="button" class="nav-link" data-toggle="modal" data-target="#search-config-modal">
+									<span class="typcn typcn-lg typcn-spanner-outline btn-link"></span>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</nav>
@@ -113,83 +118,86 @@ $site = $argv[1]
 							</div>
 							<div class="col-12 col-md-4 text-md-right text-center">
 								<h6 lang="en">Change language</h6>
-									<select class="btn btn-secondary btn-sm" id="lang-select" onchange="window.lang.change(this.value);">
-										<option href="#" value="ar">اللغة العربية</option>
-										<option href="#" value="ast">Asturianu</option>
-										<option href="#" value="bg">български език</option>
-										<option href="#" value="ca">Català</option>
-										<option href="#" value="cs">Čeština</option>
-										<option href="#" value="da">Dansk</option>
-										<option href="#" value="de">Deutsch</option>
-										<option href="#" value="el">Ελληνικά</option>
-										<option href="#" value="en">English</option>
-										<option href="#" value="es">Español</option>
-										<option href="#" value="fa">فارسی</option>
-										<option href="#" value="fr">Français</option>
-										<option href="#" value="gl">Galego</option>
-										<option href="#" value="id">Bahasa Indonesia</option>
-										<option href="#" value="it">Italiano</option>
-										<option href="#" value="ja">日本語</option>
-										<option href="#" value="ko">조선말</option>
-										<option href="#" value="lt">Lietuvių</option>
-										<option href="#" value="nl">Nederlands</option>
-										<option href="#" value="nn">Nynorsk</option>
-										<option href="#" value="pl">Polski</option>
-										<option href="#" value="pt_BR">Português (Brasil)</option>
-										<option href="#" value="pt">Português</option>
-										<option href="#" value="ru">Русский</option>
-										<option href="#" value="sk">Slovenčina</option>
-										<option href="#" value="sv">Svenska</option>
-										<option href="#" value="uk">Українська</option>
-										<option href="#" value="zh_CN">中文（简体）</option>
-										<option href="#" value="zh_TW">中文（繁體）</option>
-									</select>
+									<div class="btn-group dropup">
+									<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<span class="selected-language">English</span>
+									</button>
+									<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ar">اللغة العربية</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ast">Asturianu</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="bg">български език</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ca">Català</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="cs">Čeština</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="da">Dansk</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="de">Deutsch</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="el">Ελληνικά</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="en">English</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="es">Español</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="fa">فارسی</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="fr">Français</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="gl">Galego</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="id">Bahasa Indonesia</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="it">Italiano</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ja">日本語</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ko">조선말</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="lt">Lietuvių</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="nl">Nederlands</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="nn">Nynorsk</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="pl">Polski</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="pt_BR">Português (Brasil)</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="pt">Português</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ru">Русский</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="sk">Slovenčina</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="sv">Svenska</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="uk">Українська</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="zh_CN">中文（简体）</a></li>
+										<li><a href="#" class="dropdown-item" id="change-language" data-language-value="zh_TW">中文（繁體）</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
-						
-					
 					</div>
 				</footer>
 			</div>
 		</div>
-			<!-- Modal -->
-<div class="modal fade" id="search-config-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel" lang="en">Change search provider</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body input-group input-group-lg">
-				<select id="sel" class="form-control py-0" onchange="saveSearch(this.value);">
-					<option value="https://www.qwant.com/">Qwant</option>
-					<option value="https://google.com/search">Google</option>
-					<option value="https://duckduckgo.com/">DuckDuckGo</option>
-					<option value="https://bing.com/">Bing</option>
-					<option value="https://yahoo.com/search">Yahoo</option>
-					<option value="https://startpage.com/do/search">Startpage</option>
-				</select>
-				
-			</div>
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel" lang="en">Select the theme</h5>
-			</div>
-			<div class="modal-body input-group input-group-lg">
-				<select id="theme" class="form-control py-0" onchange="saveTheme(this.value);">
-					<option value="light">Light</option>
-					<option value="dark">Dark</option>
-				</select>
-				
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" lang="en" data-dismiss="modal">Cancel</button>
-				<button type="button" class="btn btn-primary" lang="en" data-dismiss="modal">Save</button>
+<!-- Modal -->
+		<div class="modal fade" id="search-config-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel" lang="en">Change search provider</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body input-group input-group-lg">
+						<select id="sel" class="form-control py-0" onchange="saveSearch(this.value);">
+							<option value="https://www.qwant.com/">Qwant</option>
+							<option value="https://google.com/search">Google</option>
+							<option value="https://duckduckgo.com/">DuckDuckGo</option>
+							<option value="https://bing.com/">Bing</option>
+							<option value="https://yahoo.com/search">Yahoo</option>
+							<option value="https://startpage.com/do/search">Startpage</option>
+						</select>
+						
+					</div>
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel" lang="en">Select the theme</h5>
+					</div>
+					<div class="modal-body input-group input-group-lg">
+						<select id="theme" class="form-control py-0" onchange="saveTheme(this.value);">
+							<option lang="en" value="light">Light</option>
+							<option lang="en" value="dark">Dark</option>
+						</select>
+						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" lang="en" data-dismiss="modal">Cancel</button>
+						<button type="button" class="btn btn-primary" lang="en" data-dismiss="modal">Save</button>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
 	</body>
 
 </html>

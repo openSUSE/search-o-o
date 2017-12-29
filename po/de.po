@@ -80,6 +80,16 @@ msgstr ""
 msgid "Change language"
 msgstr "Sprache wechseln"
 
+#, fuzzy
+msgid "Select the theme"
+msgstr "Suche mit Google"
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""
+
 #~ msgid "Build Service"
 #~ msgstr "Build Service"
 

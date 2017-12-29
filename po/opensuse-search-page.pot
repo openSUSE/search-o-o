@@ -63,3 +63,12 @@ msgstr ""
 
 msgid "Change language"
 msgstr ""
+
+msgid "Select the theme"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""

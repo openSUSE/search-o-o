@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
 /* i18n initialization */
 
 var lang = new Lang('en');
-/* list of possible languages, list new languages here */
+//languages setup - please list here all new language packs
 window.lang.dynamic('ar', 'js/langpack/ar.json');
 window.lang.dynamic('ast', 'js/langpack/ast.json');
 window.lang.dynamic('bg', 'js/langpack/bg.json');
@@ -130,52 +130,54 @@ window.lang.dynamic('uk', 'js/langpack/uk.json');
 window.lang.dynamic('zh_CN', 'js/langpack/zh_CN.json');
 window.lang.dynamic('zh_TW', 'js/langpack/zh_TW.json');
 
-/* change language on selection */
+//change language on click
+$(document).on("click", "#change-language", function() {
+  var languageSelected = $(this).data('language-value');
+  var languageString = $(this).html();
+  $("body").fadeOut(300, function() {
+    window.lang.change(languageSelected);
+    $(".selected-language").html(languageString);
+    $(this).fadeIn(300);
+  });
 
-$(document).on("change", "lang-select", function() {
-	var languageSelected = $(this).data('value');
-	var languageString = $(this).html();
-	$("body").fadeOut(300, function() {
-		window.lang.change(languageSelected);
-	});
-
-	return false;
+  return false;
 })
 
-/* apply settings on page load */
+//check if there is a langCookie in the browser
+$(document).on("ready", function(){
 
-$(document).ready(function(){
-	$("input:text:visible:first").focus();
-	var languageCode;
-	var selectedLanguageName;
+  var languageCode;
+  var selectedLanguageName;
 
-	if (cookieLanguage === undefined) {
-		try {
-			// try to use navigator.language
-			languageCode = navigator.language.replace("-","_");
-			window.lang.change(languageCode);
-		}
-		catch(err) {
-			// navigator.language is not available
-			if (navigator.language.length > 2) {
-				try {
-					// try with a more general string (for example, if navigator.language is "es-ES" then "es" is tried)
-					languageCode = navigator.language.substring(0,2);
-					window.lang.change(languageCode);
-				}
-				catch(err) {
-					languageCode = "en";
-				}
-			}
-			else {
-				languageCode = "en";
-			}
-		}
-	}
-	else {
-		languageCode = cookieLanguage;
-	}
-	document.getElementById('lang-select').value = languageCode;
+  if (cookieLanguage === undefined) {
+    try {
+      // try to use navigator.language
+      languageCode = navigator.language.replace("-","_");
+      window.lang.change(languageCode);
+    }
+    catch(err) {
+      // navigator.language is not available
+      if (navigator.language.length > 2) {
+        try {
+          // try with a more general string (for example, if navigator.language is "es-ES" then "es" is tried)
+          languageCode = navigator.language.substring(0,2);
+          window.lang.change(languageCode);
+        }
+        catch(err) {
+          languageCode = "en";
+        }
+      }
+      else {
+        languageCode = "en";
+      }
+    }
+  }
+  else {
+    languageCode = cookieLanguage;
+  }
+
+  selectedLanguageName = $(".languages").find("[data-language-value='" + languageCode + "']").html();
+  $(".selected-language").html(selectedLanguageName);
 });
 
 /* function for checking headline on news.opensuse.org */

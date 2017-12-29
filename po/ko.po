@@ -78,6 +78,16 @@ msgstr ""
 msgid "Change language"
 msgstr "언어 변경"
 
+#, fuzzy
+msgid "Select the theme"
+msgstr "구글로 검색"
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""
+
 #~ msgid "Build Service"
 #~ msgstr "빌드 서비스"
 

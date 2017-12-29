@@ -82,6 +82,16 @@ msgstr ""
 msgid "Change language"
 msgstr "Επιλογή γλώσσας"
 
+#, fuzzy
+msgid "Select the theme"
+msgstr "Αναζήτηση με την Google"
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""
+
 #~ msgid "Build Service"
 #~ msgstr "Υπηρεσία Κατασκευής"
 

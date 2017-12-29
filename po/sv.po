@@ -74,3 +74,13 @@ msgstr "Sök openSUSE-forum"
 
 msgid "Change language"
 msgstr "Ändra språk"
+
+#, fuzzy
+msgid "Select the theme"
+msgstr "Sök på webben"
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""

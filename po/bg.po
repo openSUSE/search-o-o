@@ -81,6 +81,16 @@ msgstr ""
 msgid "Change language"
 msgstr "Смяна на език"
 
+#, fuzzy
+msgid "Select the theme"
+msgstr "Търсене в Google"
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""
+
 #~ msgid "Build Service"
 #~ msgstr "Услуга за изграждане"
 
