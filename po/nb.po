@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nb\n"
+
+msgid "openSUSE Search"
+msgstr "openSUSE Søk"
+
+msgid "Download"
+msgstr "Last ned"
+
+msgid "Software"
+msgstr "Programvare"
+
+msgid "Guides"
+msgstr "Guider"
+
+msgid "Wiki"
+msgstr "Wiki"
+
+msgid "Forums"
+msgstr "Forum"
+
+msgid "Internet"
+msgstr "Internett"
+
+msgid "Lists"
+msgstr "Lister"
+
+msgid "Packages"
+msgstr "Pakker"
+
+msgid "Search the web"
+msgstr "Søk på nettet"
+
+msgid "Search"
+msgstr "Søk"
+
+msgid "Change search provider"
+msgstr "Endre søkeleverandør"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Save"
+msgstr "Lagre"
+
+msgid "Sponsors"
+msgstr "Sponsorer"
+
+msgid "openSUSE contributors"
+msgstr "openSUSE bidragsytere"
+
+msgid "Search openSUSE wiki"
+msgstr "Søk openSUSE wiki"
+
+msgid "Search Mailing Lists"
+msgstr "Søk adresselister"
+
+msgid "Search for package"
+msgstr "Søk etter pakke"
+
+msgid "Search openSUSE Forums"
+msgstr "Søk openSUSE Forums"
+
+msgid "Change language"
+msgstr "Bytt språk"
+
+#, fuzzy
+msgid "Select the theme"
+msgstr "Velg tema"
+
+msgid "Light"
+msgstr "Lyst"
+
+msgid "Dark"
+msgstr "Mørkt"
