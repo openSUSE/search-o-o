@@ -14,6 +14,6 @@
             {% assign current = null %}
         {% endif %}
         <li class="nav-item">
-		<a lang="en" class="nav-link{{ current }}" href="{{ site.relative_url }}{{ entry.url }}">{{ entry.title }}</a>
+		<a lang="en" class="nav-link{{ current }}" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
 	</li>
     {% endfor %}
