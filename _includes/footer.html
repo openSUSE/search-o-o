@@ -28,7 +28,7 @@
 					<script>
 						var lang = new Lang('en');
 						{% for entry in site.data.translations %}
-						window.lang.dynamic('{{ entry.short }}', '{{ site.relative_url }}/assets/js/langpack/{{ entry.short }}.json');
+						window.lang.dynamic('{{ entry.short }}', '{{ site.baseurl }}/assets/js/langpack/{{ entry.short }}.json');
 						{% endfor %}					
 					</script>
 					{% for entry in site.data.translations %}
