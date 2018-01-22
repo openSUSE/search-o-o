@@ -25,35 +25,15 @@
 						<span class="selected-language">English</span>
 				</button>
 					<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ar">اللغة العربية</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ast">Asturianu</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="bg">български език</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ca">Català</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="cs">Čeština</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="da">Dansk</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="de">Deutsch</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="el">Ελληνικά</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="en">English</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="es">Español</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="fa">فارسی</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="fr">Français</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="gl">Galego</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="id">Bahasa Indonesia</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="it">Italiano</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ja">日本語</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ko">조선말</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="lt">Lietuvių</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="nl">Nederlands</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="nn">Nynorsk</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="pl">Polski</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="pt_BR">Português (Brasil)</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="pt">Português</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="ru">Русский</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="sk">Slovenčina</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="sv">Svenska</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="uk">Українська</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="zh_CN">中文（简体）</a></li>
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="zh_TW">中文（繁體）</a></li>
+					<script>
+						var lang = new Lang('en');
+						{% for entry in site.data.translations %}
+						window.lang.dynamic('{{ entry.short }}', '/assets/js/langpack/{{ entry.short }}.json');
+						{% endfor %}					
+					</script>
+					{% for entry in site.data.translations %}
+					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="{{ entry.short }}">{{ entry.language }}</a></li>
+					{% endfor %}
 					</ul>
 				</div>
 			</div>

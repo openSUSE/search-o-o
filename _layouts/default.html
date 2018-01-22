@@ -1,14 +1,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	{% include head.html %}
 	<body>
-		<div id="dark" class="h-100 row align-items-center">
+		<div id="dark" class="box">
+			<div class="line header">
 			{% include header.html %}
 			{% include subnav.html %}
+			</div>
 			<div class="my-auto container">
 				{{ content }}
 			</div>
+			<div class="line header">
 			<div id="rss-feeds"></div>
 			{% include footer.html %}
+			</div>
 		</div>
 		{% include modal.html %}
 	</body>
