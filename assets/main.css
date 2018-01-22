@@ -1,0 +1,87 @@
+@import url("https://opensuse-zh.github.io/chameleon/css/app.css");
+
+html,
+body {
+  height: 100vh;
+  margin: 0
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+}
+
+.aligner-item {
+  max-width: 50%;
+}
+
+.smallbox {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.smallbox .line.header {
+  flex: 0 1 auto;
+  width:100%;
+}
+
+.smallbox .line.contentsmall {
+  flex: 1 1 auto;
+  width:100%;
+}
+
+.smallbox .line.footer {
+  flex: 0 1 auto;
+  width:100%;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.box .line.header {
+  flex: 0 1 auto;
+  width:100vw;
+}
+
+.box .line.content {
+  flex: 1 1 auto;
+  width:100vw;
+}
+
+.box .line.footer {
+  flex: 0 1 auto;
+  width:100vw;
+}
+
+#tabContent div:nth-of-type(2){
+display: none;
+}
+
+.sponsor-logo-small {
+	height: 1rem;
+}
+
+.dark{
+    background-color:#1d1d1d;
+    color:white;
+}
+
+.site-navbar-dark {
+  color: white !important;
+  background: #2d2d2d !important; 
+}
+
+.searchbox-dark {
+  color: white !important;
+  background: #111111 !important; 
+}
+
+.global-footer-dark {
+  color: white !important;
+  background: #2d2d2d !important; }
