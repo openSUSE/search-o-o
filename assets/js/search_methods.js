@@ -31,7 +31,7 @@ function changeTheme(val){
 		}
 	else if (val=="geeko") {
 		$('#geeko-img').remove();
-		$("#images").prepend("<div class='row' id='geeko-img'><img class='mx-auto pb-4' src='/assets/images/geeko.gif'></div>");
+		$("#images").prepend("<div class='row' id='geeko-img'><img class='mx-auto pb-4' src='assets/images/geeko.gif'></div>");
 		document.getElementById('dark').setAttribute("class", "box");
 		document.getElementById('nav-border').setAttribute("class", "nav justify-content-center nav-tabs");
 		document.getElementById('nav-link active').setAttribute("class", "nav-link active");
