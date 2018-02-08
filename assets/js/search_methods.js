@@ -12,16 +12,52 @@ function changeAction(val){
 
 function changeTheme(val){
 	if (val=="dark") {
+		$('#geeko-img').remove();
 		document.getElementById('dark').setAttribute("class", "box dark");
+		document.getElementById('nav-border').setAttribute("class", "nav justify-content-center nav-tabs nav-tabs-dark");
+		document.getElementById('nav-link active').setAttribute("class", "nav-link active dark-nav-active");
 		document.getElementById('darker').setAttribute("class", "global-footer darker");
 		document.getElementById('darkest').setAttribute("class", "site-navbar darker pt-2");
 		document.getElementById('searchbox').setAttribute("class", "form-control darkest mr-2");
 		}
 	else if (val=="light") {
+		$('#geeko-img').remove();
 		document.getElementById('dark').setAttribute("class", "box");
+		document.getElementById('nav-border').setAttribute("class", "nav justify-content-center nav-tabs");
+		document.getElementById('nav-link active').setAttribute("class", "nav-link active");
 		document.getElementById('darker').setAttribute("class", "global-footer");
 		document.getElementById('darkest').setAttribute("class", "site-navbar pt-2");
 		document.getElementById('searchbox').setAttribute("class", "form-control mr-2");
+		}
+	else if (val=="geeko") {
+		$('#geeko-img').remove();
+		$("#images").prepend("<div class='row' id='geeko-img'><img class='mx-auto pb-4' src='/assets/images/geeko.gif'></div>");
+		document.getElementById('dark').setAttribute("class", "box");
+		document.getElementById('nav-border').setAttribute("class", "nav justify-content-center nav-tabs");
+		document.getElementById('nav-link active').setAttribute("class", "nav-link active");
+		document.getElementById('darker').setAttribute("class", "global-footer");
+		document.getElementById('darkest').setAttribute("class", "site-navbar pt-2");
+		document.getElementById('searchbox').setAttribute("class", "form-control mr-2");
+		}
+	else if (val=="counter") {
+		$('#geeko-img').remove();
+		$("#images").prepend("<div class='row' id='geeko-img'><img class='mx-auto pb-4 rounded' src='https://counter.opensuse.org'></div>");
+		document.getElementById('dark').setAttribute("class", "box");
+		document.getElementById('nav-border').setAttribute("class", "nav justify-content-center nav-tabs");
+		document.getElementById('nav-link active').setAttribute("class", "nav-link active");
+		document.getElementById('darker').setAttribute("class", "global-footer");
+		document.getElementById('darkest').setAttribute("class", "site-navbar pt-2");
+		document.getElementById('searchbox').setAttribute("class", "form-control mr-2");
+		}
+	if (val=="counter-dark") {
+		$('#geeko-img').remove();
+		$("#images").prepend("<div class='row' id='geeko-img'><img class='mx-auto pb-4 rounded' src='https://counter.opensuse.org'></div>");
+		document.getElementById('dark').setAttribute("class", "box dark");
+		document.getElementById('nav-border').setAttribute("class", "nav justify-content-center nav-tabs nav-tabs-dark");
+		document.getElementById('nav-link active').setAttribute("class", "nav-link active dark-nav-active");
+		document.getElementById('darker').setAttribute("class", "global-footer darker");
+		document.getElementById('darkest').setAttribute("class", "site-navbar darker pt-2");
+		document.getElementById('searchbox').setAttribute("class", "form-control darkest mr-2");
 		}
 }
 
