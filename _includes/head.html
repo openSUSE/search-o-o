@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="https://opensuse-zh.github.io/chameleon/js/app.js" type="text/javascript" charset="utf-8"></script>
+  <script src="{{ "/assets/css/js/app.js" | relative_url }}" type="text/javascript" charset="utf-8"></script>
   <script src="{{ "/assets/js/jquery-lang.js" | relative_url }}" type="text/javascript" charset="utf-8"></script>
   <script src="{{ "/assets/js/jquery.rss.js" | relative_url }}" type="text/javascript" charset="utf-8"></script>
   <script src="{{ "/assets/js/search_methods.js" | relative_url }}" type="text/javascript" charset="utf-8"></script>
@@ -13,6 +13,7 @@
   <title lang="en">{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+  <link rel="stylesheet" href="{{ "/assets/css/css/app.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 </head>
