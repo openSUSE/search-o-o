@@ -7,12 +7,17 @@
   <script src="{{ "/assets/js/jquery-lang.js" | relative_url }}" type="text/javascript" charset="utf-8"></script>
   <script src="{{ "/assets/js/jquery.rss.js" | relative_url }}" type="text/javascript" charset="utf-8"></script>
   <script src="{{ "/assets/js/search_methods.js" | relative_url }}" type="text/javascript" charset="utf-8"></script>
-		
+	
   <link rel="icon" type="image/png" href="{{ "/assets/images/favico.png" | relative_url }}" />
 
   <title lang="en">{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+  <meta content="Search" property="og:title">
+  <meta content="openSUSE" property="og:site_name">
+  <meta content="website" property="og:type">
+  <meta content="{{ page.url | replace:'index.html','' | absolute_url }}" property="og:url">
+  <meta content="https://www.gravatar.com/avatar/502c26ed98f4a46fcefba36cec0371df.jpg?d=https%3A%2F%2Fbuild.opensuse.org%2Fassets%2Fobs-logo_meta-e47acefd69be3171798d13ea6f3052d4e63a4c238ed8a2f97447f2392459bcef.png" property="og:image">
   <link rel="stylesheet" href="{{ "/assets/css/css/app.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
