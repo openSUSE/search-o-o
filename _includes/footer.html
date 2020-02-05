@@ -14,12 +14,6 @@
 						<span class="selected-language">English</span>
 				</button>
 					<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
-					<script>
-						var lang = new Lang('en');
-						{% for entry in site.data.translations %}
-						window.lang.dynamic('{{ entry.short }}', '{{ site.baseurl }}/assets/js/langpack/{{ entry.short }}.json');
-						{% endfor %}
-					</script>
 					{% for entry in site.data.translations %}
 					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="{{ entry.short }}">{{ entry.language }}</a></li>
 					{% endfor %}
