@@ -12,36 +12,5 @@ body {
 }
 
 .sponsor-logo-small {
-  height: 1rem;
+  height: 2rem;
 }
-
-.dark{
-  color:white !important;
-  background-color:#1d1d1d !important;
-}
-
-.darker {
-  color: white !important;
-  background: #2d2d2d !important; 
-}
-
-.darkest {
-  color: white !important;
-  background: #111111 !important; 
-}
-
-.dark-nav-active {
-  background-color:#1d1d1d !important;
-  border-color: #000!important;
-  border-bottom-color:#1d1d1d !important;
-  color:#fff!important;
-}
-
-.nav-tabs-dark {
-  border-bottom-color:#000 !important;
-}
-
-.nav-tabs .nav-link:not(.active):focus, .nav-tabs .nav-link:not(.active):hover {
-  border-color:transparent!important;
-}
-

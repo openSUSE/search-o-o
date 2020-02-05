@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg22"
+   version="1.1"
+   viewBox="0 0 20 20"
+   height="20"
+   width="20">
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>favicon_y19_32x32_custom</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+  <title
+     id="title2">favicon_y19_32x32_custom</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs7">
+    <polygon
+       points="9.4455087,0.093111111 9.4455087,9.9244222 0.17107391,9.9244222 0.17107391,0.093111111 "
+       id="path-1" />
+    <mask
+       id="mask-2"
+       fill="white">
+      <use
+         xlink:href="#path-1"
+         id="use13"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </mask>
+  </defs>
+  <rect
+     mask="none"
+     clip-path="none"
+     id="rect9"
+     height="20"
+     width="20"
+     y="0"
+     x="0"
+     style="fill:#6001d2;stroke-width:0.625" />
+  <polygon
+     mask="none"
+     clip-path="none"
+     transform="matrix(0.625,0,0,0.625,3.1249996,3.75)"
+     id="Fill-1"
+     points="0,5 4.9117642,16.026558 3.1444241,20 7.4591457,20 14,5 9.7083593,5 7.0460441,11.419705 4.4065744,5 "
+     style="fill:#ffffff" />
+  <path
+     mask="none"
+     clip-path="none"
+     style="fill:#ffffff;stroke-width:0.625"
+     id="Fill-2"
+     d="m 12.429672,10.548361 c -0.990149,0 -1.733247,0.744445 -1.733247,1.610833 0,0.852362 0.713954,1.556389 1.674959,1.556389 0.990599,0 1.733248,-0.730833 1.733248,-1.610694 0,-0.86625 -0.713506,-1.556528 -1.67496,-1.556528" />
+  <polygon
+     clip-path="none"
+     transform="matrix(0.625,0,0,0.625,11.521739,3.75)"
+     id="Fill-4"
+     mask="none"
+     points="9.4455087,0.093088889 4.5519435,0.093088889 0.17107391,9.9244222 5.0648783,9.9244222 "
+     style="fill:#ffffff;fill-opacity:1" />
+</svg>

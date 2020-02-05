@@ -2,24 +2,13 @@
 	<div class="container">
 		<div class="row">
 		<div class="col-12 col-md-4 text-md-left text-center">
-			<h6 lang="en">Sponsors</h6>
-			<ul class="list-unstyled">
-				<li><a href="https://en.opensuse.org/Sponsors"><img src="{{ "/assets/images/SUSE_Logo.svg" | relative_url }}" class="sponsor-logo-small mr-3">
-				<img src="{{ "/assets/images/AMD_Logo.svg" | relative_url }}" class="sponsor-logo-small mr-3">
-				<img src="{{ "/assets/images/B1Systems_Logo.svg" | relative_url }}" class="sponsor-logo-small mr-3"></li>
-				<li><img src="{{ "/assets/images/Heinlein_Logo.svg" | relative_url }}" class="sponsor-logo-small mr-3">
-				<img src="{{ "/assets/images/CoreBackbone_Logo.svg" | relative_url }}" class="sponsor-logo-small mr-3">
-				<img src="{{ "/assets/images/APM_Logo.svg" | relative_url }}" class="sponsor-logo-small mr-3"></a></li>
-			</ul>
+			{% assign random = site.time | date: "%s%N" | modulo: site.data.sponsors.size %}
+			<a href="https://en.opensuse.org/Sponsors"><img src="{{ "/assets/images/" | relative_url }}{{ site.data.sponsors[random].image }}" title="Project sponsored by {{ site.data.sponsors[random].name }}" alt="{{ site.data.sponsors[random].name }}" class="sponsor-logo-small mr-3"></a>
 		</div>
 		<div class="col-12 col-md-4 text-center">
-			<h6>&copy; 2011&ndash;2017</h6>
-			<ul class="list-unstyled">
-				<li><p lang="en">openSUSE contributors</p></li>
-			</ul>
+			<span>&copy; 2011&ndash;2020</span> <span lang="en">openSUSE contributors</span>
 		</div>
 		<div class="col-12 col-md-4 text-md-right text-center">
-				<h6 lang="en">Change language</h6>
 				<div class="btn-group dropup">
 				<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<span class="selected-language">English</span>
@@ -29,7 +18,7 @@
 						var lang = new Lang('en');
 						{% for entry in site.data.translations %}
 						window.lang.dynamic('{{ entry.short }}', '{{ site.baseurl }}/assets/js/langpack/{{ entry.short }}.json');
-						{% endfor %}					
+						{% endfor %}
 					</script>
 					{% for entry in site.data.translations %}
 					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="{{ entry.short }}">{{ entry.language }}</a></li>

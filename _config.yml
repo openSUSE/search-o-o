@@ -1,2 +1,4 @@
 title: openSUSE Search
-url: "https://lelcp.github.com/search-o-o"
+url: "https://search.opensuse.org/"
+
+exclude: [README.md, LICENSE]

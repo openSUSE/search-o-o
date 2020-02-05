@@ -1,0 +1,29 @@
+- name: Google
+  key: google
+  image: google.svg
+  url: https://google.com/search
+
+- name: DuckDuckGo
+  key: ddg
+  image: ddg.svg
+  url: https://duckduckgo.com/
+
+- name: Bing
+  key: bing
+  image: bing.svg
+  url: https://bing.com/
+
+- name: Yahoo!
+  key: yahoo
+  image: yahoo.svg
+  url: https://yahoo.com/search
+
+- name: Qwant
+  key: qwant
+  image: qwant.svg
+  url: https://www.qwant.com/
+
+- name: StartPage
+  key: startpage
+  image: startpage.svg
+  url: https://startpage.com/do/search

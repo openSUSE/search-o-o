@@ -7,13 +7,13 @@
         {% assign current_page = fullurl %}
     {% endif %}
 {% endfor %}
-    {% for entry in site.data.navigation %}
-        {% if entry.url == current_page %}
-            {% assign current = ' active' %}
-        {% else %}
-            {% assign current = null %}
-        {% endif %}
-        <li class="nav-item">
-		<a lang="en" id="nav-link{{ current }}" class="nav-link{{ current }}" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
-	</li>
-    {% endfor %}
+{% for entry in site.data.navigation %}
+    {% if entry.url == current_page %}
+        {% assign current = ' active' %}
+    {% else %}
+        {% assign current = null %}
+    {% endif %}
+    <li class="nav-item">
+        <a lang="en" id="nav-link{{ current }}" class="nav-link{{ current }}" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+    </li>
+{% endfor %}

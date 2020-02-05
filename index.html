@@ -1,8 +1,16 @@
 ---
 layout: default
 ---
-<form id="searchForm" class="input-group input-group-lg" action="https://www.qwant.com/" method="GET">
-	<input id="searchbox" class="form-control mr-2" type="text" name="q" lang="en" placeholder="Search the web"/>
+<form id="searchForm" class="input-group input-group-lg" action="https://google.com/search" method="GET">
+	<div class="dropdown">
+		<button class="btn btn-lg border border-right-0 h-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img id="sel" src="{{ "/assets/search/google.svg" | relative_url }}" alt="Google"/></button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			{% for entry in site.data.search-engines %}
+				<a class="dropdown-item" href="#" onclick="saveSearch('{{ entry.key }}');"><img class="mr-2" src="{{ "/assets/search/" | relative_url }}{{ entry.image }}"/>{{ entry.name }}</a>
+			{% endfor %}
+		</div>
+	</div>
+	<input id="searchbox" class="form-control mr-2 w-auto" type="text" name="q" lang="en" placeholder="Search the web"/>
 	<button class="btn btn-primary mr-2" type="submit">
 		<span class="typcn typcn-lg typcn-zoom-outline"></span>
 		<span class="hidden-xs-down" lang="en">Search</span>
