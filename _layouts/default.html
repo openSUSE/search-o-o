@@ -1,17 +1,11 @@
-<html>
+<html lang="en">
 	{% include head.html %}
 	<body>
-		<div id="dark" class="box">
-			<div class="line header">
-			{% include header.html %}
-			</div>
-			<div id="images" class="my-auto container">
-				{{ content }}
-			</div>
-			<div class="line header">
-			<div id="rss-feeds"></div>
-			{% include footer.html %}
-			</div>
-		</div>
+	{% include header.html %}
+	<div class="container my-auto">
+		{{ content }}
+	</div>
+	<div id="rss-feeds"></div>
+	{% include footer.html %}
 	</body>
 </html>

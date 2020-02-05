@@ -1,14 +1,14 @@
-<footer id="darker" class="global-footer">
+<footer class="global-footer">
 	<div class="container">
 		<div class="row">
-		<div class="col-12 col-md-4 text-md-left text-center">
+		<div class="col-12 col-md-4 text-md-left my-auto">
 			{% assign random = site.time | date: "%s%N" | modulo: site.data.sponsors.size %}
 			<a href="https://en.opensuse.org/Sponsors"><img src="{{ "/assets/images/" | relative_url }}{{ site.data.sponsors[random].image }}" title="Project sponsored by {{ site.data.sponsors[random].name }}" alt="{{ site.data.sponsors[random].name }}" class="sponsor-logo-small mr-3"></a>
 		</div>
-		<div class="col-12 col-md-4 text-center">
+		<div class="col-12 col-md-4 text-center my-auto">
 			<span>&copy; 2011&ndash;2020</span> <span lang="en">openSUSE contributors</span>
 		</div>
-		<div class="col-12 col-md-4 text-md-right text-center">
+		<div class="col-12 col-md-4 text-md-right my-auto">
 				<div class="btn-group dropup">
 				<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<span class="selected-language">English</span>

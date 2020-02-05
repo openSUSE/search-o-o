@@ -141,8 +141,8 @@ $("#rss-feeds").rss(
 	{
 		limit: 1,
 		ssl: true,
-		layoutTemplate: "<div class=\"alert alert-info container text-center\" role=\"alert\">{entries}</div>",
-		entryTemplate: '<a href="{url}">{title}</a>'
+		layoutTemplate: '<div class="alert alert-info container text-center" role="alert">{entries}</div>',
+		entryTemplate: '<a class="font-weight-bold" href="//news.opensuse.org"><span class="typcn typcn-news"></span> News:</a> <a href="{url}">{title}</a>'
 	},
 )
 });
