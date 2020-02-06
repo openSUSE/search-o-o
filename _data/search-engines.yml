@@ -16,7 +16,7 @@
 - name: Yahoo!
   key: yahoo
   image: yahoo.svg
-  url: https://yahoo.com/search
+  url: https://search.yahoo.com/search
 
 - name: Qwant
   key: qwant
