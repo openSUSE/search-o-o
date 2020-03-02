@@ -1,22 +1,22 @@
-- name: Google
-  key: google
-  image: google.svg
-  url: https://google.com/search
+- name: Bing
+  key: bing
+  image: bing.svg
+  url: https://bing.com/
 
 - name: DuckDuckGo
   key: ddg
   image: ddg.svg
   url: https://duckduckgo.com/
 
-- name: Bing
-  key: bing
-  image: bing.svg
-  url: https://bing.com/
+- name: Ecosia
+  key: ecosia
+  image: ecosia.svg
+  url: https://www.ecosia.org/search
 
-- name: Yahoo!
-  key: yahoo
-  image: yahoo.svg
-  url: https://search.yahoo.com/search
+- name: Google
+  key: google
+  image: google.svg
+  url: https://google.com/search
 
 - name: Qwant
   key: qwant
@@ -27,3 +27,8 @@
   key: startpage
   image: startpage.svg
   url: https://startpage.com/do/search
+
+- name: Yahoo!
+  key: yahoo
+  image: yahoo.svg
+  url: https://search.yahoo.com/search
