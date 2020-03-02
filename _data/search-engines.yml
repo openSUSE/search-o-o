@@ -13,6 +13,11 @@
   image: ecosia.svg
   url: https://www.ecosia.org/search
 
+- name: Givero
+  key: givero
+  image: givero.svg
+  url: https://www.givero.com/search
+
 - name: Google
   key: google
   image: google.svg
@@ -22,6 +27,13 @@
   key: qwant
   image: qwant.svg
   url: https://www.qwant.com/
+
+# We should support picking instances but it's hard
+# Or maybe even run our own?
+- name: searx
+  key: searx
+  image: searx.svg
+  url: https://searx.xyz/
 
 - name: StartPage
   key: startpage
