@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-22 22:42:41 +0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: index.html:9
+msgid "openSUSE Search"
+msgstr "openSUSE Søk"
+
+#: index.html:65 index.html:70 index.html:73 index.html:76 index.html:79
+msgid "Internet"
+msgstr "Internett"
+
+#: index.html:70 index.html:75 index.html:78 index.html:81 index.html:84
+msgid "Packages"
+msgstr "Pakker"
+
+#: index.html:75 index.html:80 index.html:83 index.html:86 index.html:89
+msgid "Wiki"
+msgstr "Wiki"
+
+#: index.html:80 index.html:85 index.html:88 index.html:91 index.html:94
+msgid "Lists"
+msgstr "Lister"
+
+#: index.html:85 index.html:90 index.html:93 index.html:96 index.html:99
+msgid "Forums"
+msgstr "Forum"
+
+#: index.html:101
+msgid "Search for package"
+msgstr "Søk etter pakke"
+
+#: index.html:104
+msgid "Search openSUSE wiki"
+msgstr "Søk openSUSE wiki"
+
+#: index.html:107 index.html:110 index.html:113 index.html:123 index.html:206
+msgid "Search"
+msgstr "Søk"
+
+#: index.html:107
+msgid "Search Mailing Lists"
+msgstr "Søk adresselister"
+
+#: index.html:110
+msgid "Search openSUSE Forums"
+msgstr "Søk openSUSE Forums"
+
+#: index.html:120
+msgid "Search the web"
+msgstr "Søk på nettet"
+
+#: index.html:121 index.html:124 index.html:127 index.html:137 index.html:220
+msgid "openSUSE contributors"
+msgstr "openSUSE bidragsytere"
+
+#~ msgid "https://forums.opensuse.org/search.php"
+#~ msgstr "https://forums.opensuse.org/search.php"
+
+#~ msgid "https://en.opensuse.org/Special:Search?"
+#~ msgstr "https://en.opensuse.org/Special:Search?"

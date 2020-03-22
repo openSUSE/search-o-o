@@ -1,4 +1,4 @@
 title: openSUSE Search
 url: "https://search.opensuse.org/"
 
-exclude: [README.md, LICENSE]
+exclude: [README.md, LICENSE, po]

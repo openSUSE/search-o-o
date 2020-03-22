@@ -1,11 +1,4 @@
-- language: English
-  short: en
-
-- language: Polski
-  short: pl
-
-- language: Norsk Bokmål
-  short: nb
-
-- language: Svenska
-  short: sv
+en: English
+pl: Polski
+nb: Norsk Bokmål
+sv: Svenska

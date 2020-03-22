@@ -148,6 +148,6 @@ $("#rss-feeds").rss(
 });
 
 var lang = new Lang('en');
-{% for lang in site.data.translations %}
-window.lang.dynamic('{{ lang.short }}', '/assets/js/langpack/{{ lang.short }}.json');
-{% endfor %}
+{% languages %}
+window.lang.dynamic('@@', '/assets/js/langpack/@@.json');
+{% endlanguages %}
