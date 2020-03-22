@@ -68,6 +68,8 @@ cfg['pages'].each do |page|
     text = t.text unless t.name == 'form'
     if text.empty?
       text = t.attribute('placeholder').to_s
+      text = t.attribute('action').to_s if text.empty?
+      text = t.attribute('href').to_s if text.empty?
       text = t.attribute('value').to_s if text.empty?
       next if text.empty?
     end
