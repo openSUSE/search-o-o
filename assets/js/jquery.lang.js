@@ -104,7 +104,8 @@ var Lang = (function () {
 		'title',
 		'alt',
 		'placeholder',
-		'href'
+		'href',
+		'action'
 	];
 
 	/**
