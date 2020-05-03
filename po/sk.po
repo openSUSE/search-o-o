@@ -4,29 +4,28 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 17:10:14 +0100\n"
-"PO-Revision-Date: 2015-11-04 20:36+0100\n"
+"PO-Revision-Date: 2020-05-07 08:52+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
-"Language-Team: Slovak <opensuse-translation-sk@opensuse.org>\n"
+"Language-Team: Slovak <https://l10n.opensuse.org/projects/search-o-o/master/"
+"sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: index.html:9
-#, fuzzy
-#| msgid "openSUSE search"
 msgid "openSUSE Search"
-msgstr "openSUSE hľadanie"
+msgstr "Vyhľadávanie openSUSE"
 
 #: index.html:65 index.html:70 index.html:73 index.html:76 index.html:79
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: index.html:70 index.html:75 index.html:78 index.html:81 index.html:84
 msgid "Packages"
-msgstr ""
+msgstr "Balíky"
 
 #: index.html:75 index.html:80 index.html:83 index.html:86 index.html:89
 msgid "Wiki"
@@ -34,7 +33,7 @@ msgstr "Wiki"
 
 #: index.html:80 index.html:85 index.html:88 index.html:91 index.html:94
 msgid "Lists"
-msgstr ""
+msgstr "Zoznamy"
 
 #: index.html:85 index.html:90 index.html:93 index.html:96 index.html:99
 msgid "Forums"
@@ -42,34 +41,32 @@ msgstr "Fóra"
 
 #: index.html:101
 msgid "Search for package"
-msgstr ""
+msgstr "Hľadanie balíkov"
 
 #: index.html:103
 msgid "https://en.opensuse.org/Special:Search?"
-msgstr ""
+msgstr "https://en.opensuse.org/Special:Search?"
 
 #: index.html:104
 msgid "Search openSUSE wiki"
-msgstr ""
+msgstr "Hľadať na openSUSE wiki"
 
 #: index.html:107 index.html:110 index.html:113 index.html:123 index.html:206
 msgid "Search"
-msgstr ""
+msgstr "Hľadať"
 
 #: index.html:107
 msgid "Search Mailing Lists"
-msgstr ""
+msgstr "Prehľadávať mailové konferencie"
 
 #: index.html:110
 msgid "Search openSUSE Forums"
-msgstr ""
+msgstr "Hľadať v openSUSE fórach"
 
 #: index.html:120
-#, fuzzy
-#| msgid "Search with Google"
 msgid "Search the web"
-msgstr "Hľadať s Google"
+msgstr "Hľadať na webe"
 
 #: index.html:121 index.html:124 index.html:127 index.html:137 index.html:220
 msgid "openSUSE contributors"
-msgstr ""
+msgstr "Prispievatelia openSUSE"
