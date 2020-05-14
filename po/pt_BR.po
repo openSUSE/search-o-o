@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 17:10:14 +0100\n"
-"PO-Revision-Date: 2020-05-14 17:11+0000\n"
-"Last-Translator: Leonardo Teodoro <leonardosilvateodoro@hotmail.com>\n"
+"PO-Revision-Date: 2020-05-26 14:40+0000\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive68@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
 "search-o-o/master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -16,8 +16,6 @@ msgstr ""
 "X-Generator: Weblate 3.6.1\n"
 
 #: index.html:9
-#, fuzzy
-#| msgid "openSUSE search"
 msgid "openSUSE Search"
 msgstr "Pesquisa do openSUSE"
 
@@ -47,7 +45,7 @@ msgstr "Procurar por pacotes"
 
 #: index.html:103
 msgid "https://en.opensuse.org/Special:Search?"
-msgstr ""
+msgstr "https://en.opensuse.org/Special:Search?"
 
 #: index.html:104
 msgid "Search openSUSE wiki"
