@@ -4,30 +4,29 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 17:10:14 +0100\n"
-"PO-Revision-Date: 2015-11-05 21:07+0300\n"
-"Last-Translator: Aleksandr Melentev <minton@opensuse.org>\n"
-"Language-Team: Russian <opensuse-translation-ru@opensuse.org>\n"
+"PO-Revision-Date: 2020-06-29 20:42+0000\n"
+"Last-Translator: Alex Minton <alex239@gmail.com>\n"
+"Language-Team: Russian <https://l10n.opensuse.org/projects/search-o-o/master/"
+"ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: index.html:9
-#, fuzzy
-#| msgid "openSUSE search"
 msgid "openSUSE Search"
 msgstr "Поиск openSUSE"
 
 #: index.html:65 index.html:70 index.html:73 index.html:76 index.html:79
 msgid "Internet"
-msgstr ""
+msgstr "Интернет"
 
 #: index.html:70 index.html:75 index.html:78 index.html:81 index.html:84
 msgid "Packages"
-msgstr ""
+msgstr "Пакеты"
 
 #: index.html:75 index.html:80 index.html:83 index.html:86 index.html:89
 msgid "Wiki"
@@ -35,7 +34,7 @@ msgstr "Вики"
 
 #: index.html:80 index.html:85 index.html:88 index.html:91 index.html:94
 msgid "Lists"
-msgstr ""
+msgstr "Списки"
 
 #: index.html:85 index.html:90 index.html:93 index.html:96 index.html:99
 msgid "Forums"
@@ -43,34 +42,32 @@ msgstr "Форумы"
 
 #: index.html:101
 msgid "Search for package"
-msgstr ""
+msgstr "Искать пакет"
 
 #: index.html:103
 msgid "https://en.opensuse.org/Special:Search?"
-msgstr ""
+msgstr "https://en.opensuse.org/Special:Search?"
 
 #: index.html:104
 msgid "Search openSUSE wiki"
-msgstr ""
+msgstr "Поиск по вики openSUSE"
 
 #: index.html:107 index.html:110 index.html:113 index.html:123 index.html:206
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: index.html:107
 msgid "Search Mailing Lists"
-msgstr ""
+msgstr "Поиск по спискам рассылки"
 
 #: index.html:110
 msgid "Search openSUSE Forums"
-msgstr ""
+msgstr "Поиск по форуму openSUSE"
 
 #: index.html:120
-#, fuzzy
-#| msgid "Search with Google"
 msgid "Search the web"
-msgstr "Искать в Google"
+msgstr "Искать в интернете"
 
 #: index.html:121 index.html:124 index.html:127 index.html:137 index.html:220
 msgid "openSUSE contributors"
-msgstr ""
+msgstr "Участники openSUSE"
