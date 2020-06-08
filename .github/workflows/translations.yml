@@ -26,7 +26,7 @@ jobs:
       env:
         BUNDLE_PATH: .bundle
       with:
-        entrypoint: bundle
+        entrypoint: /usr/bin/bundle
         args: install -j=4
 
     - name: Build the site
@@ -37,7 +37,7 @@ jobs:
         LANGUAGE: en_US.UTF-8
         LC_ALL: C.UTF-8
       with:
-        entrypoint: bundle
+        entrypoint: /usr/bin/bundle
         args: exec jekyll build
 
     - name: Run the script
@@ -48,7 +48,7 @@ jobs:
         LANGUAGE: en_US.UTF-8
         LC_ALL: C.UTF-8
       with:
-        entrypoint: bundle
+        entrypoint: /usr/bin/bundle
         args: exec ruby po/update_po.rb
 
     - uses: stefanzweifel/git-auto-commit-action@v4
