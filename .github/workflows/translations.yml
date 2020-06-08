@@ -11,45 +11,23 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: opensuse/leap:15.2
 
     steps:
     - uses: actions/checkout@v2
 
     - name: Install dependencies
-      uses: docker://opensuse/leap:15.2
-      with:
-        entrypoint: zypper
-        args: install -y ruby-devel "rubygem(bundler)" gcc-c++ gettext
+      run: zypper install -y ruby-devel "rubygem(bundler)" gcc-c++ gettext
 
     - name: Install dependencies
-      uses: docker://opensuse/leap:15.2
-      env:
-        BUNDLE_PATH: .bundle
-      with:
-        entrypoint: /usr/bin/bundle
-        args: install -j=4
+      run: BUNDLE_PATH=.bundle bundle install -j=4
 
     - name: Build the site
-      uses: docker://opensuse/leap:15.2
-      env:
-        BUNDLE_PATH: .bundle
-        LANG: en_US.UTF-8
-        LANGUAGE: en_US.UTF-8
-        LC_ALL: C.UTF-8
-      with:
-        entrypoint: /usr/bin/bundle
-        args: exec jekyll build
+      run: BUNDLE_PATH=.bundle LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=C.UTF-8 bundle exec jekyll build
 
     - name: Run the script
-      uses: docker://opensuse/leap:15.2
-      env:
-        BUNDLE_PATH: .bundle
-        LANG: en_US.UTF-8
-        LANGUAGE: en_US.UTF-8
-        LC_ALL: C.UTF-8
-      with:
-        entrypoint: /usr/bin/bundle
-        args: exec ruby po/update_po.rb
+      run: BUNDLE_PATH=.bundle LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=C.UTF-8 bundle exec ruby po/update_po.rb
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
