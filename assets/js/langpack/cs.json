@@ -1,0 +1,16 @@
+{
+  "WARNING": "Please see the README.md - this is generated",
+  "token": {
+    "Forums": "Fóra",
+    "Lists": "Seznamy",
+    "Packages": "Balíčky",
+    "Search": "Hledání",
+    "Search Mailing Lists": "Hledání v seznamech adresátů",
+    "Search for package": "Hledání balíčku",
+    "Search openSUSE Forums": "Hledání ve fórech openSUSE",
+    "Search openSUSE wiki": "Hledání v openSUSE wiki",
+    "Search the web": "Hledat na webu",
+    "openSUSE Search": "Vyhledávání openSUSE",
+    "openSUSE contributors": "Přispěvatelé openSUSE"
+  }
+}

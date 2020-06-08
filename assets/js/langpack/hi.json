@@ -1,0 +1,18 @@
+{
+  "WARNING": "Please see the README.md - this is generated",
+  "token": {
+    "Forums": "चर्चा मंच",
+    "Internet": "इंटरनेट",
+    "Lists": "सूचियाँ",
+    "Packages": "पैकेज",
+    "Search": "खोजें",
+    "Search Mailing Lists": "मेल सूची पर खोजें",
+    "Search for package": "पैकेज खोजें",
+    "Search openSUSE Forums": "ओपनSUSE चर्चा मंच पर खोजें",
+    "Search openSUSE wiki": "ओपनSUSE विकी में खोजें",
+    "Search the web": "इंटरनेट पर खोजें",
+    "Wiki": "विकी",
+    "openSUSE Search": "ओपनSUSE खोज",
+    "openSUSE contributors": "ओपनSUSE योगदानकर्ता"
+  }
+}

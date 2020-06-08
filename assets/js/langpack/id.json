@@ -1,0 +1,16 @@
+{
+  "WARNING": "Please see the README.md - this is generated",
+  "token": {
+    "Forums": "Forum",
+    "Lists": "Daftar",
+    "Packages": "Paket",
+    "Search": "Cari",
+    "Search Mailing Lists": "Cari di Milis",
+    "Search for package": "Cari paket",
+    "Search openSUSE Forums": "Cari di Forum openSUSE",
+    "Search openSUSE wiki": "Cari di wiki openSUSE",
+    "Search the web": "Cari di Web",
+    "openSUSE Search": "Pencarian openSUSE",
+    "openSUSE contributors": "Kontributor openSUSE"
+  }
+}
