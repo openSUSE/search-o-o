@@ -19,7 +19,7 @@ jobs:
       uses: docker://opensuse/leap:15.2
       with:
         entrypoint: zypper
-        args: install -y ruby-devel rubygem\(bundler\) gcc-c++ gettext
+        args: install -y ruby-devel "rubygem(bundler)" gcc-c++ gettext
 
     - name: Install dependencies
       uses: docker://opensuse/leap:15.2
