@@ -17,7 +17,15 @@ jobs:
 
     - name: Install dependencies
       uses: docker://ruby:2.7
-      run: apt-get update -qq && apt -y install gettext
+      with:
+        entrypoint: apt-get
+        args: update -qq
+
+    - name: Install dependencies
+      uses: docker://ruby:2.7
+      with:
+        entrypoint: apt
+        args: -y install gettext
 
     - name: Install dependencies
       uses: docker://ruby:2.7
