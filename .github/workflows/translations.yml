@@ -23,6 +23,17 @@ jobs:
         entrypoint: bundle
         args: install -j=4
 
+    - name: Build the site
+      uses: docker://ruby:2.7
+      env:
+        BUNDLE_PATH: .bundle
+        LANG: en_US.UTF-8
+        LANGUAGE: en_US.UTF-8
+        LC_ALL: C.UTF-8
+      with:
+        entrypoint: bundle
+        args: exec jekyll build
+
     - name: Run the script
       uses: docker://ruby:2.7
       env:
