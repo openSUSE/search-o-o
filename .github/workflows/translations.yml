@@ -19,7 +19,7 @@ jobs:
       uses: docker://opensuse/leap:15.2
       with:
         entrypoint: zypper
-        args: -y install ruby-devel gcc-c++ gettext
+        args: install -y ruby-devel gcc-c++ gettext
 
     - name: Install dependencies
       uses: docker://opensuse/leap:15.2
