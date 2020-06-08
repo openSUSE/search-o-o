@@ -32,4 +32,4 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Submit built translations
-        file_pattern: assets/js/langpack/*
+        file_pattern: assets/js/langpack/* po/*.pot
