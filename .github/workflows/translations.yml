@@ -20,6 +20,14 @@ jobs:
       env:
         BUNDLE_PATH: .bundle
       with:
+        entrypoint: apt
+        args: -y install gettext
+
+    - name: Install dependencies
+      uses: docker://ruby:2.7
+      env:
+        BUNDLE_PATH: .bundle
+      with:
         entrypoint: bundle
         args: install -j=4
 
