@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<form id="searchForm" class="input-group input-group-lg" action="https://google.com/search" method="GET">
+<form id="searchForm" class="input-group input-group-lg" action="https://searx.xyz/" method="GET">
 	<div class="dropdown mx-auto mb-2">
-		<button class="btn btn-lg border border-right-0 search-engine" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img id="sel" src="{{ "/assets/search/google.svg" | relative_url }}" alt="Google"/></button>
+		<button class="btn btn-lg border border-right-0 search-engine" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img id="sel" src="{{ "/assets/search/searx.svg" | relative_url }}" alt="Searx"/></button>
 		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 			{% for entry in site.data.search-engines %}
 				<a class="dropdown-item" href="#" onclick="saveSearch('{{ entry.key }}');"><img class="mr-2" src="{{ "/assets/search/" | relative_url }}{{ entry.image }}"/>{{ entry.name }}</a>
