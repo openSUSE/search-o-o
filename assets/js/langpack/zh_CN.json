@@ -1,0 +1,19 @@
+{
+  "WARNING": "Please see the README.md - this is generated",
+  "token": {
+    "Forums": "论坛",
+    "Internet": "互联网",
+    "Lists": "列表",
+    "Packages": "软件包",
+    "Search": "搜索",
+    "Search Mailing Lists": "搜索邮件列表",
+    "Search for package": "搜索软件包",
+    "Search openSUSE Forums": "搜索 openSUSE 论坛",
+    "Search openSUSE wiki": "搜索 openSUSE 维基",
+    "Search the web": "搜索网络",
+    "Wiki": "维基",
+    "https://en.opensuse.org/Special:Search?": "https://zh.opensuse.org/Special:搜索?",
+    "openSUSE Search": "openSUSE 搜索",
+    "openSUSE contributors": "openSUSE 参与者"
+  }
+}

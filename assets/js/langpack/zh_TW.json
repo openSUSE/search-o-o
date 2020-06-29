@@ -1,0 +1,18 @@
+{
+  "WARNING": "Please see the README.md - this is generated",
+  "token": {
+    "Forums": "論壇",
+    "Internet": "網際網路",
+    "Lists": "列表",
+    "Packages": "套件",
+    "Search": "搜尋",
+    "Search Mailing Lists": "搜尋郵件列表",
+    "Search for package": "搜尋套件",
+    "Search openSUSE Forums": "搜尋 openSUSE 論壇",
+    "Search openSUSE wiki": "搜尋 openSUSE 維基",
+    "Search the web": "搜尋網路",
+    "Wiki": "維基",
+    "openSUSE Search": "openSUSE 搜尋",
+    "openSUSE contributors": "openSUSE 貢獻者"
+  }
+}
