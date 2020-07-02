@@ -1,18 +1,12 @@
 {
   "WARNING": "Please see the README.md - this is generated",
   "token": {
-    "Forums": "Форумы",
-    "Internet": "Интернет",
-    "Lists": "Списки",
-    "Packages": "Пакеты",
     "Search": "Поиск",
     "Search Mailing Lists": "Поиск по спискам рассылки",
     "Search for package": "Искать пакет",
     "Search openSUSE Forums": "Поиск по форуму openSUSE",
     "Search openSUSE wiki": "Поиск по вики openSUSE",
     "Search the web": "Искать в интернете",
-    "Wiki": "Вики",
-    "openSUSE Search": "Поиск openSUSE",
     "openSUSE contributors": "Участники openSUSE"
   }
 }

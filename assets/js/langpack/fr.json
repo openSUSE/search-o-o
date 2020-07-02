@@ -1,8 +1,6 @@
 {
   "WARNING": "Please see the README.md - this is generated",
   "token": {
-    "Lists": "Listes de diffusion",
-    "Packages": "Logiciels",
     "Search": "Chercher",
     "Search Mailing Lists": "Chercher sur les listes de diffusion",
     "Search for package": "Chercher un logiciel",
@@ -10,7 +8,6 @@
     "Search openSUSE wiki": "Chercher sur le wiki openSUSE",
     "Search the web": "Chercher sur le Web",
     "https://en.opensuse.org/Special:Search?": "https://fr.opensuse.org/Special:Search?",
-    "openSUSE Search": "Recherche openSUSE",
     "openSUSE contributors": "Contributeurs openSUSE"
   }
 }

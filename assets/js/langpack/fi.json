@@ -1,17 +1,12 @@
 {
   "WARNING": "Please see the README.md - this is generated",
   "token": {
-    "Forums": "Foorumit",
-    "Internet": "Internetti",
-    "Lists": "Listat",
-    "Packages": "Paketit",
     "Search": "Etsi",
     "Search Mailing Lists": "Hae postituslistoista",
     "Search for package": "Etsi pakettia",
     "Search openSUSE Forums": "Etsi openSUSE-foorumeilta",
     "Search openSUSE wiki": "Hae openSUSE-wikistä",
     "Search the web": "Hae verkosta",
-    "openSUSE Search": "openSUSE Haku",
     "openSUSE contributors": "openSUSE kehittäjät"
   }
 }

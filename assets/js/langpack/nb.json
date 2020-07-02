@@ -1,17 +1,12 @@
 {
   "WARNING": "Please see the README.md - this is generated",
   "token": {
-    "Forums": "Forum",
-    "Internet": "Internett",
-    "Lists": "Lister",
-    "Packages": "Pakker",
     "Search": "Søk",
     "Search Mailing Lists": "Søk adresselister",
     "Search for package": "Søk etter pakke",
     "Search openSUSE Forums": "Søk openSUSE Forums",
     "Search openSUSE wiki": "Søk openSUSE wiki",
     "Search the web": "Søk på nettet",
-    "openSUSE Search": "openSUSE Søk",
     "openSUSE contributors": "openSUSE bidragsytere"
   }
 }

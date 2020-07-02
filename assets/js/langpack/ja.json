@@ -1,10 +1,6 @@
 {
   "WARNING": "Please see the README.md - this is generated",
   "token": {
-    "Forums": "フォーラム",
-    "Internet": "インターネット",
-    "Lists": "メーリングリスト",
-    "Packages": "パッケージ",
     "Search": "検索",
     "Search Mailing Lists": "メーリングリストの検索",
     "Search for package": "パッケージの検索",
@@ -12,7 +8,6 @@
     "Search openSUSE wiki": "openSUSE Wiki の検索",
     "Search the web": "Web の検索",
     "https://en.opensuse.org/Special:Search?": "https://ja.opensuse.org/Special:Search?",
-    "openSUSE Search": "openSUSE 検索",
     "openSUSE contributors": "openSUSE 貢献者"
   }
 }

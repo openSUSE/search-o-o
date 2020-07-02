@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-29 20:48:59 +0000\n"
+"POT-Creation-Date: 2020-07-02 16:14:31 +0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,58 +10,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: index.html:9
-msgid "openSUSE Search"
-msgstr ""
-
-#: index.html:65 index.html:70 index.html:73 index.html:76 index.html:79
-msgid "Internet"
-msgstr ""
-
-#: index.html:70 index.html:75 index.html:78 index.html:81 index.html:84
-msgid "Packages"
-msgstr ""
-
-#: index.html:75 index.html:80 index.html:83 index.html:86 index.html:89
-msgid "Wiki"
-msgstr ""
-
-#: index.html:80 index.html:85 index.html:88 index.html:91 index.html:94
-msgid "Lists"
-msgstr ""
-
-#: index.html:85 index.html:90 index.html:93 index.html:96 index.html:99
-msgid "Forums"
-msgstr ""
-
-#: index.html:101
-msgid "Search for package"
-msgstr ""
-
-#: index.html:103
+#: index.html:186
 msgid "https://en.opensuse.org/Special:Search?"
 msgstr ""
 
-#: index.html:104
-msgid "Search openSUSE wiki"
-msgstr ""
-
-#: index.html:107 index.html:110 index.html:113 index.html:123 index.html:206
-msgid "Search"
-msgstr ""
-
-#: index.html:107
+#: index.html:187
 msgid "Search Mailing Lists"
 msgstr ""
 
-#: index.html:110
+#: index.html:187
+msgid "Search for package"
+msgstr ""
+
+#: index.html:187
 msgid "Search openSUSE Forums"
 msgstr ""
 
-#: index.html:120
+#: index.html:187
+msgid "Search openSUSE wiki"
+msgstr ""
+
+#: index.html:190 index.html:196 index.html:214 index.html:286
+msgid "Search"
+msgstr ""
+
+#: index.html:211
 msgid "Search the web"
 msgstr ""
 
-#: index.html:121 index.html:124 index.html:127 index.html:137 index.html:220
+#: index.html:217 index.html:223 index.html:241 index.html:313
 msgid "openSUSE contributors"
 msgstr ""

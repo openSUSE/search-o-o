@@ -1,16 +1,12 @@
 {
   "WARNING": "Please see the README.md - this is generated",
   "token": {
-    "Forums": "Fóra",
-    "Lists": "Zoznamy",
-    "Packages": "Balíky",
     "Search": "Hľadať",
     "Search Mailing Lists": "Prehľadávať mailové konferencie",
     "Search for package": "Hľadanie balíkov",
     "Search openSUSE Forums": "Hľadať v openSUSE fórach",
     "Search openSUSE wiki": "Hľadať na openSUSE wiki",
     "Search the web": "Hľadať na webe",
-    "openSUSE Search": "Vyhľadávanie openSUSE",
     "openSUSE contributors": "Prispievatelia openSUSE"
   }
 }
