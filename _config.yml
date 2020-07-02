@@ -1,4 +1,29 @@
 title: openSUSE Search
+title_short: Search
+description: >-
+  Search the openSUSE infrastructure
+copyright: '© 2011–2020 openSUSE contributors'
+piwik_site_id: 5
 url: "https://search.opensuse.org/"
+
+theme: jekyll-theme-opensuse
+markdown: kramdown
+
+navbar_links:
+  -
+    link: /packages/
+    text: Packages
+  -
+    link: /wiki/
+    text: Wiki
+  -
+    link: /lists/
+    text: Lists
+  -
+    link: /forum/
+    text: Forums
+
+rss:
+  source: https://news.opensuse.org/feed.xml
 
 exclude: [README.md, LICENSE, po]

@@ -133,20 +133,6 @@ $(document).on("ready", function(){
 	$(".selected-language").html(selectedLanguageName);
 });
 
-/* function for checking headline on news.opensuse.org */
-
-jQuery(function($) {
-$("#rss-feeds").rss(
-	"http://news.opensuse.org/feed",
-	{
-		limit: 1,
-		ssl: true,
-		layoutTemplate: '<div class="alert alert-info container text-center" role="alert">{entries}</div>',
-		entryTemplate: '<a class="font-weight-bold" href="//news.opensuse.org"><span class="typcn typcn-news"></span> News:</a> <a href="{url}">{title}</a>'
-	},
-)
-});
-
 var lang = new Lang('en');
 {% languages %}
 window.lang.dynamic('@@', '/assets/js/langpack/@@.json');

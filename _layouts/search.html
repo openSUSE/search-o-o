@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="container d-flex h-100 flex-fill">
+  <div class="my-auto w-100">
+    {{ content }}
+  </div>
+</div>
+<div class="alert alert-info container text-center" role="alert">
+  <a class="font-weight-bold" href="//news.opensuse.org">
+    <span class="typcn typcn-news"></span>
+    News:
+  </a>
+{% rss %}<a href="{ url }">{ title }</a>{% endrss %}
+</div>
+<script defer src="/assets/js/jquery.js"></script>
+<script defer src="/assets/js/jquery.lang.js"></script>
+<script defer src="/assets/js/search_methods.js"></script>
