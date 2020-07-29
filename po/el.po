@@ -6,30 +6,28 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 17:10:14 +0100\n"
-"PO-Revision-Date: 2018-04-26 20:02+0000\n"
-"Last-Translator: Konstantina Tsolakoglou <konstantina@accountant.com>\n"
-"Language-Team: Greek <https://l10n.opensuse.org/projects/searchpage/master/"
+"PO-Revision-Date: 2020-07-29 22:02+0000\n"
+"Last-Translator: Efstathios Iosifidis <eiosifidis@gmail.com>\n"
+"Language-Team: Greek <https://l10n.opensuse.org/projects/search-o-o/master/"
 "el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: index.html:9
-#, fuzzy
-#| msgid "openSUSE search"
 msgid "openSUSE Search"
 msgstr "Αναζήτηση openSUSE"
 
 #: index.html:65 index.html:70 index.html:73 index.html:76 index.html:79
 msgid "Internet"
-msgstr ""
+msgstr "Διαδίκτυο"
 
 #: index.html:70 index.html:75 index.html:78 index.html:81 index.html:84
 msgid "Packages"
-msgstr ""
+msgstr "Πακέτα"
 
 #: index.html:75 index.html:80 index.html:83 index.html:86 index.html:89
 msgid "Wiki"
@@ -37,7 +35,7 @@ msgstr "Wiki"
 
 #: index.html:80 index.html:85 index.html:88 index.html:91 index.html:94
 msgid "Lists"
-msgstr ""
+msgstr "Λίστες"
 
 #: index.html:85 index.html:90 index.html:93 index.html:96 index.html:99
 msgid "Forums"
@@ -45,34 +43,32 @@ msgstr "Forums"
 
 #: index.html:101
 msgid "Search for package"
-msgstr ""
+msgstr "Αναζήτηση για πακέτο"
 
 #: index.html:103
 msgid "https://en.opensuse.org/Special:Search?"
-msgstr ""
+msgstr "https://en.opensuse.org/Special:Search?"
 
 #: index.html:104
 msgid "Search openSUSE wiki"
-msgstr ""
+msgstr "Αναζήτηση στο openSUSE wiki"
 
 #: index.html:107 index.html:110 index.html:113 index.html:123 index.html:206
 msgid "Search"
-msgstr ""
+msgstr "Αναζήτηση"
 
 #: index.html:107
 msgid "Search Mailing Lists"
-msgstr ""
+msgstr "Αναζήτηση στις λίστες ταχυδρομείου"
 
 #: index.html:110
 msgid "Search openSUSE Forums"
-msgstr ""
+msgstr "Αναζήτηση στα openSUSE Forums"
 
 #: index.html:120
-#, fuzzy
-#| msgid "Search with Google"
 msgid "Search the web"
-msgstr "Αναζήτηση με την Google"
+msgstr "Αναζήτηση στον ιστό"
 
 #: index.html:121 index.html:124 index.html:127 index.html:137 index.html:220
 msgid "openSUSE contributors"
-msgstr ""
+msgstr "Συνεισφέροντες στο openSUSE"
