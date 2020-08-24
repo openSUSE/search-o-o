@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 17:10:14 +0100\n"
-"PO-Revision-Date: 2020-08-24 00:40+0000\n"
+"PO-Revision-Date: 2020-08-24 16:13+0000\n"
 "Last-Translator: Paolo Za <zapaolo@email.it>\n"
 "Language-Team: Italian <https://l10n.opensuse.org/projects/search-o-o/master/"
 "it/>\n"
@@ -15,8 +15,6 @@ msgstr ""
 "X-Generator: Weblate 3.6.1\n"
 
 #: index.html:9
-#, fuzzy
-#| msgid "openSUSE search"
 msgid "openSUSE Search"
 msgstr "Cerca in openSUSE"
 
