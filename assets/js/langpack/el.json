@@ -1,0 +1,12 @@
+{
+  "WARNING": "Please see the README.md - this is generated",
+  "token": {
+    "Search": "Αναζήτηση",
+    "Search Mailing Lists": "Αναζήτηση στις λίστες ταχυδρομείου",
+    "Search for package": "Αναζήτηση για πακέτο",
+    "Search openSUSE Forums": "Αναζήτηση στα openSUSE Forums",
+    "Search openSUSE wiki": "Αναζήτηση στο openSUSE wiki",
+    "Search the web": "Αναζήτηση στον ιστό",
+    "openSUSE contributors": "Συνεισφέροντες στο openSUSE"
+  }
+}
