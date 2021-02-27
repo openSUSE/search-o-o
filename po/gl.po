@@ -4,30 +4,28 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 17:10:14 +0100\n"
-"PO-Revision-Date: 2019-03-14 19:10+0000\n"
-"Last-Translator: Miguel Branco <mgl.branco@gmail.com>\n"
-"Language-Team: Galician <https://l10n.opensuse.org/projects/searchpage/"
+"PO-Revision-Date: 2021-03-07 15:06+0000\n"
+"Last-Translator: Manuel Vazquez <xixirei@yahoo.es>\n"
+"Language-Team: Galician <https://l10n.opensuse.org/projects/search-o-o/"
 "master/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.3\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: index.html:9
-#, fuzzy
-#| msgid "openSUSE search"
 msgid "openSUSE Search"
 msgstr "Buscar en openSUSE"
 
 #: index.html:65 index.html:70 index.html:73 index.html:76 index.html:79
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: index.html:70 index.html:75 index.html:78 index.html:81 index.html:84
 msgid "Packages"
-msgstr ""
+msgstr "Paquetes"
 
 #: index.html:75 index.html:80 index.html:83 index.html:86 index.html:89
 msgid "Wiki"
@@ -35,7 +33,7 @@ msgstr "Wiki"
 
 #: index.html:80 index.html:85 index.html:88 index.html:91 index.html:94
 msgid "Lists"
-msgstr ""
+msgstr "Listas"
 
 #: index.html:85 index.html:90 index.html:93 index.html:96 index.html:99
 msgid "Forums"
@@ -43,34 +41,32 @@ msgstr "Foros"
 
 #: index.html:101
 msgid "Search for package"
-msgstr ""
+msgstr "Buscar paquetes"
 
 #: index.html:103
 msgid "https://en.opensuse.org/Special:Search?"
-msgstr ""
+msgstr "https://en.opensuse.org/Special:Search?"
 
 #: index.html:104
 msgid "Search openSUSE wiki"
-msgstr ""
+msgstr "Buscar na Wiki de openSUSE"
 
 #: index.html:107 index.html:110 index.html:113 index.html:123 index.html:206
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: index.html:107
 msgid "Search Mailing Lists"
-msgstr ""
+msgstr "Buscar nas listas de correo"
 
 #: index.html:110
 msgid "Search openSUSE Forums"
-msgstr ""
+msgstr "Buscar no foro de openSUSE"
 
 #: index.html:120
-#, fuzzy
-#| msgid "Search with Google"
 msgid "Search the web"
-msgstr "Buscar con Google"
+msgstr "Buscar na web"
 
 #: index.html:121 index.html:124 index.html:127 index.html:137 index.html:220
 msgid "openSUSE contributors"
-msgstr ""
+msgstr "Colaboradores de openSUSE"
