@@ -4,9 +4,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 17:10:14 +0100\n"
-"PO-Revision-Date: 2019-03-14 19:10+0000\n"
-"Last-Translator: Dmytro Stankov <mail@dstankov.com>\n"
-"Language-Team: Ukrainian <https://l10n.opensuse.org/projects/searchpage/"
+"PO-Revision-Date: 2021-12-12 02:12+0000\n"
+"Last-Translator: Taras Panchenko <top39@ukr.net>\n"
+"Language-Team: Ukrainian <https://l10n.opensuse.org/projects/search-o-o/"
 "master/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.3\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: index.html:9
 #, fuzzy
@@ -44,34 +44,32 @@ msgstr "Форуми"
 
 #: index.html:101
 msgid "Search for package"
-msgstr ""
+msgstr "Пошук пакунку"
 
 #: index.html:103
 msgid "https://en.opensuse.org/Special:Search?"
-msgstr ""
+msgstr "https://en.opensuse.org/Special:Search?"
 
 #: index.html:104
 msgid "Search openSUSE wiki"
-msgstr ""
+msgstr "Пошук у openSUSE wiki"
 
 #: index.html:107 index.html:110 index.html:113 index.html:123 index.html:206
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 #: index.html:107
 msgid "Search Mailing Lists"
-msgstr ""
+msgstr "Пошук у списках розсилки"
 
 #: index.html:110
 msgid "Search openSUSE Forums"
-msgstr ""
+msgstr "Пошук у форумах openSUSE"
 
 #: index.html:120
-#, fuzzy
-#| msgid "Search with Google"
 msgid "Search the web"
-msgstr "Пошук через Google"
+msgstr "Пошук у WEB"
 
 #: index.html:121 index.html:124 index.html:127 index.html:137 index.html:220
 msgid "openSUSE contributors"
-msgstr ""
+msgstr "Учасники openSUSE"
