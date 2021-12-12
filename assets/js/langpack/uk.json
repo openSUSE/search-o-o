@@ -1,0 +1,12 @@
+{
+  "WARNING": "Please see the README.md - this is generated",
+  "token": {
+    "Search": "Пошук",
+    "Search Mailing Lists": "Пошук у списках розсилки",
+    "Search for package": "Пошук пакунку",
+    "Search openSUSE Forums": "Пошук у форумах openSUSE",
+    "Search openSUSE wiki": "Пошук у openSUSE wiki",
+    "Search the web": "Пошук у WEB",
+    "openSUSE contributors": "Учасники openSUSE"
+  }
+}
