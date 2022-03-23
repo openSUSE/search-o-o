@@ -13,10 +13,8 @@
   image: ecosia.svg
   url: https://www.ecosia.org/search
 
-- name: Givero
-  key: givero
-  image: givero.svg
-  url: https://www.givero.com/search
+# Removed Givero Search as it is discontinued
+# Any good Replacements for it?
 
 - name: Google
   key: google
