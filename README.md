@@ -1,7 +1,7 @@
 # openSUSE.org Search
 
 Original project from 2011, revived now with modern look and feel.
-Updated version of the OpenSuse federated search engine.
+Updated version of the OpenSUSE federated search engine.
 
 ## Improved:
 
