@@ -12,7 +12,7 @@
   key: ecosia
   image: ecosia.svg
   url: https://www.ecosia.org/search
-
+# Removed Givero Search as it is discontinued
 # Added Yandex Search 
 - name: Yandex
   key: yandex
