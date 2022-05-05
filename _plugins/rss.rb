@@ -11,8 +11,8 @@ module Jekyll
       feed_contents = URI.open(feed_url) {|f| f.read }
       feed_xml = REXML::Document.new(feed_contents)
 
-      text.gsub!(/{ url }/, REXML::XPath.first(feed_xml, "//item/link").text)
-      text.gsub!(/{ title }/, REXML::XPath.first(feed_xml, "//item/title").text)
+      text.gsub!(/{ url }/, REXML::XPath.first(feed_xml, "//item/link").text.to_s)
+      text.gsub!(/{ title }/, REXML::XPath.first(feed_xml, "//item/title").text.to_s)
       text
     end
   end
