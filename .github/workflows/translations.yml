@@ -10,7 +10,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: opensuse/leap:15.3
+      image: opensuse/tumbleweed
 
     steps:
     - name: Install dependencies
