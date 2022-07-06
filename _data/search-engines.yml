@@ -20,6 +20,11 @@
   key: google
   image: google.svg
   url: https://google.com/search
+  
+- name: Presearch
+  key: presearch
+  image: presearch.svg
+  url: https://presearch.com/
 
 - name: Qwant
   key: qwant
