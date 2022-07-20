@@ -6,12 +6,15 @@ layout: default
     {{ content }}
   </div>
 </div>
-<div class="alert alert-info container text-center" role="alert">
-  <a class="font-weight-bold" href="//news.opensuse.org">
-    <span class="typcn typcn-news"></span>
-    News:
-  </a>
-{% rss %}<a href="{ url }">{ title }</a>{% endrss %}
+<div class="alert alert-info container" role="alert">
+  <div class="d-inline d-sm-flex align-items-center mx-auto justify-content-center">
+    <a class="font-weight-bold d-inline d-sm-flex align-items-center mr-1" href="//news.opensuse.org">
+      {% include news.svg %}
+      <span class="ml-1 d-none d-sm-block"">News:</span>
+    </a>
+    {% assign item = site.rss | first %}
+    <a href="{{ item.link }}">{{ item.title }}</a>
+  </div>
 </div>
 <script defer src="/assets/js/jquery.js"></script>
 <script defer src="/assets/js/jquery.lang.js"></script>

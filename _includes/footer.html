@@ -14,9 +14,9 @@
 						<span class="selected-language">English</span>
 				</button>
 					<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
-					{%- languages %}
-					<li><a href="#" class="dropdown-item" id="change-language" data-language-value="@@">@@@@</a></li>
-					{%- endlanguages %}
+					{%- for lang in site.languages %}
+						<li><a href="#" class="dropdown-item" id="change-language" data-language-value="{{ lang.short }}">{{ lang.name }}</a></li>
+					{%- endfor %}
 					</ul>
 				</div>
 			</div>

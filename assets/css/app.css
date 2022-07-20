@@ -29,3 +29,9 @@ body {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+
+@media (prefers-color-scheme: dark) {
+  .search-engine {
+    border-color: #495057!important
+  }
+}

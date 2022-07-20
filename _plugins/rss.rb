@@ -1,21 +1,22 @@
-require 'rexml/document'
 require 'open-uri'
+require 'xmlhasher'
 
-module Jekyll
-  class RssBlock < Liquid::Block
+XmlHasher.configure do |config|
+  config.string_keys = true
+end
 
-    def render(context)
-      text = super
-      feed_url = YAML.load_file('_config.yml')["rss"]["source"]
-      
-      feed_contents = URI.open(feed_url) {|f| f.read }
-      feed_xml = REXML::Document.new(feed_contents)
+class RSS
+  def initialize(site)
+    @site = site
+  end
 
-      text.gsub!(/{ url }/, REXML::XPath.first(feed_xml, "//item/link").text.to_s)
-      text.gsub!(/{ title }/, REXML::XPath.first(feed_xml, "//item/title").text.to_s)
-      text
-    end
+  def munge!
+    feed_url = YAML.load_file('_config.yml')["rss"]["source"]
+    rss = URI.open(feed_url) {|f| f.read }
+    @site.config['rss'] = XmlHasher.parse(rss)['rss']['channel']['item']
   end
 end
 
-Liquid::Template.register_tag('rss', Jekyll::RssBlock)
+Jekyll::Hooks.register :site, :after_init do |site|
+  RSS.new(site).munge!
+end

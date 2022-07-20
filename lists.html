@@ -100,8 +100,8 @@ permalink: /lists/
 		<option value="zypp-commit">zypp-commit</option>
 		<option value="zypp-devel">zypp-devel</option>
 	</select>
-	<button class="btn btn-primary mx-auto mb-2" type="submit">
-		<span class="typcn typcn-lg typcn-zoom-outline"></span>
-		<span lang="en" class="hidden-xs-down">Search</span>
+	<button class="btn btn-primary mx-auto mb-2 d-flex align-items-center" type="submit">
+		{% include search.svg %}
+		<span class="ml-1 d-none d-sm-block" lang="en">Search</span>
 	</button>
 </form>

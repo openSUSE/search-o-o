@@ -134,6 +134,7 @@ $(document).on("ready", function(){
 });
 
 var lang = new Lang('en');
-{% languages %}
-window.lang.dynamic('@@', '/assets/js/langpack/@@.json');
-{% endlanguages %}
+{%- for lang in site.languages %}
+window.lang.dynamic('{{ lang.short }}', '/assets/js/langpack/{{ lang.short }}.json');
+{%- endfor %}
+

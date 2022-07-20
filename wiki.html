@@ -4,8 +4,8 @@ permalink: /wiki/
 ---
 <form id="wiki" method="get" lang="en" action="https://en.opensuse.org/Special:Search?" class="input-group input-group-lg" >
 	<input id="searchbox" type="text" name="search" value="" class="form-control mx-auto mb-2 mr-md-2" lang="en" placeholder="Search openSUSE wiki"/>
-	<button class="btn btn-primary mx-auto mb-2" type="submit">
-		<span class="typcn typcn-lg typcn-zoom-outline"></span>
-		<span lang="en" class="hidden-xs-down">Search</span>
+	<button class="btn btn-primary mx-auto mb-2 d-flex align-items-center" type="submit">
+		{% include search.svg %}
+		<span class="ml-1 d-none d-sm-block" lang="en">Search</span>
 	</button>
 </form>

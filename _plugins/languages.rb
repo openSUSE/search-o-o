@@ -1,21 +1,22 @@
-module Jekyll
-  class LanguagesBlock < Liquid::Block
+class Languages
+  def initialize(site)
+    @site = site
+  end
 
-    def render(context)
-      result = []
-      name = YAML.load_file('_data/translations.yml')
-      languages = Dir["assets/js/langpack/*.json"].map {|e| File.basename(e, '.json')}
-      languages.prepend('en')
-      languages.each do |language|
-        line = super
-        lang_name = name.has_key?(language) ? name[language] : language
-        line.gsub!('@@@@', lang_name)
-        line.gsub!('@@', language)
-        result << line
-      end
-      result.join()
+  def munge!
+    name = YAML.load_file('_data/translations.yml')
+    languages = Dir["assets/js/langpack/*.json"].map {|e| File.basename(e, '.json')}
+    languages.prepend('en')
+    @site.config['languages'] = []
+    languages.each do |language|
+      result = {}
+      result['short'] = language
+      result['name'] = name.has_key?(language) ? name[language] : language
+      @site.config['languages'] << result
     end
   end
 end
 
-Liquid::Template.register_tag('languages', Jekyll::LanguagesBlock)
+Jekyll::Hooks.register :site, :after_init do |site|
+  Languages.new(site).munge!
+end
