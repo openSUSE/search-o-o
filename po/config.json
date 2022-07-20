@@ -2,9 +2,9 @@
   "name": "opensuse-search",
   "pages": [
     "_site/index.html",
-    "_site/lists.html",
-    "_site/wiki.html",
-    "_site/forum.html",
-    "_site/packages.html"
+    "_site/lists/index.html",
+    "_site/wiki/index.html",
+    "_site/forum/index.html",
+    "_site/packages/index.html"
   ]
 }
