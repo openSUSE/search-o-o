@@ -24,7 +24,7 @@
 - name: Presearch
   key: presearch
   image: presearch.svg
-  url: https://presearch.com/
+  url: https://presearch.com/search?q=
 
 - name: Qwant
   key: qwant
