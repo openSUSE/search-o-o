@@ -1,7 +1,6 @@
 # openSUSE.org Search
 
-Originally project from 2011, revived now with modern look and feel
-Updated version of search.openSUSE.org federated search engine.
+[Originally created in 2011](https://github.com/openSUSE/searchPage), the project has now been revived with a modern appearance and an updated version at the same address [search.opensuse.org](https://search.opensuse.org).
 
 ## Improved:
 
@@ -9,6 +8,6 @@ Updated version of search.openSUSE.org federated search engine.
  * Added support for multiple search engines, saved in cookie.
  * Updated mailing lists to state from Dec 2017.
  * Removed previous links to patented packages.
- * Added newest headline from news.openSUSE.org
+ * Added newest headline from [news.opensuse.org](https://news.opensuse.org)
  * Support for translations
  * Dark theme support
