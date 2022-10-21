@@ -1,6 +1,6 @@
 # openSUSE.org Search
 
-[Originally created in 2011](https://github.com/openSUSE/searchPage), the project has now been revived with a modern appearance and an updated version at the same address [search.opensuse.org](https://search.opensuse.org).
+Originally created in 2011, the project has now been revived with a modern appearance and an updated version at the same address [search.opensuse.org](https://search.opensuse.org).
 
 ## Improved:
 
