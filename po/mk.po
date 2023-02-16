@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-08 10:05:06 +0000\n"
-"PO-Revision-Date: 2023-02-01 07:14+0000\n"
+"PO-Revision-Date: 2023-02-16 03:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/search-o-o/"
 "master/mk/>\n"
@@ -24,11 +24,11 @@ msgstr "Пребарај ги имејл листите"
 
 #: index.html:187
 msgid "Search for package"
-msgstr ""
+msgstr "Пребарај пакети"
 
 #: index.html:187
 msgid "Search openSUSE Forums"
-msgstr ""
+msgstr "Пребарај ги openSUSE форумите"
 
 #: index.html:187
 msgid "Search openSUSE wiki"
