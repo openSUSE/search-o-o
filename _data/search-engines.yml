@@ -50,3 +50,8 @@
   key: yahoo
   image: yahoo.svg
   url: https://search.yahoo.com/search
+
+- name: Brave
+  key: brave
+  image: brave.svg
+  url: https://search.brave.com/search
