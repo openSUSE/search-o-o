@@ -5,15 +5,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 17:10:14 +0100\n"
-"PO-Revision-Date: 2016-02-26 17:11+0200\n"
-"Last-Translator: Borislav Mitev <morbid_viper@tkzs.org>\n"
-"Language-Team: Bulgarian <opensuse-translation@opensuse.org>\n"
+"PO-Revision-Date: 2024-06-08 16:46+0000\n"
+"Last-Translator: koralski <koralsky11@gmail.com>\n"
+"Language-Team: Bulgarian <https://l10n.opensuse.org/projects/search-o-o/"
+"master/bg/>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: index.html:9
 #, fuzzy
@@ -43,34 +44,33 @@ msgstr "Форуми"
 
 #: index.html:101
 msgid "Search for package"
-msgstr ""
+msgstr "Търсене на пакет"
 
 #: index.html:103
+#, fuzzy
 msgid "https://en.opensuse.org/Special:Search?"
-msgstr ""
+msgstr "https://en.opensuse.org/Special:Search?"
 
 #: index.html:104
 msgid "Search openSUSE wiki"
-msgstr ""
+msgstr "Търсене в уикито на openSUSE"
 
 #: index.html:107 index.html:110 index.html:113 index.html:123 index.html:206
 msgid "Search"
-msgstr ""
+msgstr "Търсене"
 
 #: index.html:107
 msgid "Search Mailing Lists"
-msgstr ""
+msgstr "Търсене на пощенски списък"
 
 #: index.html:110
 msgid "Search openSUSE Forums"
-msgstr ""
+msgstr "Търсене в форумите на openSUSE"
 
 #: index.html:120
-#, fuzzy
-#| msgid "Search with Google"
 msgid "Search the web"
-msgstr "Търсене в Google"
+msgstr "Търсене в мрежата"
 
 #: index.html:121 index.html:124 index.html:127 index.html:137 index.html:220
 msgid "openSUSE contributors"
-msgstr ""
+msgstr "Сътрудници на openSUSE"
