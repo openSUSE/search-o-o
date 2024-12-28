@@ -34,13 +34,6 @@
   image: qwant.svg
   url: https://www.qwant.com/
 
-# We should support picking instances but it's hard
-# Or maybe even run our own?
-- name: searx
-  key: searx
-  image: searx.svg
-  url: https://searx.xyz/
-
 - name: StartPage
   key: startpage
   image: startpage.svg
