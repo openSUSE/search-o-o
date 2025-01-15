@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="791mm"
+   height="198mm"
+   viewBox="0 0 791 198"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="rsync.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="rsync.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.19554223"
+     inkscape:cx="1421.6878"
+     inkscape:cy="-219.90135"
+     inkscape:window-width="1920"
+     inkscape:window-height="1131"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1"
+       transform="matrix(3.8185996,0,0,3.8185996,-5.2480939,-0.28883074)">
+      <rect
+         style="opacity:1;fill:#2b59a8;fill-opacity:1;stroke:#73ba25;stroke-width:0.3106;stroke-linecap:round;stroke-miterlimit:1.49;paint-order:stroke markers fill"
+         id="rect1"
+         width="208.9895"
+         height="52.032795"
+         x="0.70683694"
+         y="0.03029881" />
+      <text
+         xml:space="preserve"
+         style="font-size:36.8429px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:1;fill:#2b59a8;fill-opacity:1;stroke:#73ba25;stroke-width:0.326364;stroke-linecap:round;stroke-miterlimit:1.49;paint-order:stroke markers fill"
+         x="107.6194"
+         y="35.956787"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-size:36.8429px;fill:#ffffff;stroke:none;stroke-width:0.326364"
+           x="107.6194"
+           y="35.956787">rsync.net</tspan></text>
+    </g>
+  </g>
+</svg>
