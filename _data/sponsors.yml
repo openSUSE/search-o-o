@@ -10,5 +10,9 @@
   image: CoreBackbone_Logo.svg
 - name: Marvell
   image: Marvell_Logo.svg
-- name: Tuxedo Computers
-  image: Tuxedo_Logo.svg
+- name: rsync
+  image: rsync_Logo.svg
+- name: NorthC
+  image: NorthC_Logo.svg
+- name: fastly
+  image: fastly_Logo.svg
