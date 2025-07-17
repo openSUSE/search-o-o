@@ -3,43 +3,45 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-08 10:05:06 +0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-07-17 15:59+0000\n"
+"Last-Translator: yok440 <yakupyok440@gmail.com>\n"
+"Language-Team: Turkish <https://l10n.opensuse.org/projects/search-o-o/master/"
+"tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: index.html:186
 msgid "https://en.opensuse.org/Special:Search?"
-msgstr ""
+msgstr "https://tr.opensuse.org/%C3%96zel:Ara?"
 
 #: index.html:187
 msgid "Search Mailing Lists"
-msgstr ""
+msgstr "Posta Listelerini Ara"
 
 #: index.html:187
 msgid "Search for package"
-msgstr ""
+msgstr "Paket ara"
 
 #: index.html:187
 msgid "Search openSUSE Forums"
-msgstr ""
+msgstr "openSUSE Forumlarını ara"
 
 #: index.html:187
 msgid "Search openSUSE wiki"
-msgstr ""
+msgstr "openSUSE wiki'de arama yap"
 
 #: index.html:190 index.html:196 index.html:214 index.html:286
 msgid "Search"
-msgstr ""
+msgstr "Ara"
 
 #: index.html:211
 msgid "Search the web"
-msgstr ""
+msgstr "Web'de arama yap"
 
 #: index.html:217 index.html:223 index.html:241 index.html:313
 msgid "openSUSE contributors"
-msgstr ""
+msgstr "openSUSE katılımcıları"
